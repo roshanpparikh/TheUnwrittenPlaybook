@@ -1,0 +1,666 @@
+[
+  {
+    "id": "fact_001",
+    "pushBody": "The 'new car smell' is a chemical cocktail.",
+    "fullBody": "That distinct scent comes from over 50 volatile organic compounds (VOCs) released through 'off-gassing' from interior materials like plastics, leather, and adhesives.",
+    "interests": ["cars"]
+  },
+  {
+    "id": "fact_002",
+    "pushBody": "The first speeding ticket was for 8 mph.",
+    "fullBody": "In 1896, Walter Arnold was ticketed in Kent, England, for going four times the speed limit. The police officer had to catch him on a bicycle.",
+    "interests": ["cars"]
+  },
+  {
+    "id": "fact_003",
+    "pushBody": "Your car is parked 95% of the time.",
+    "fullBody": "On average, privately owned vehicles spend the vast majority of their lifespan stationary, which is why car-sharing services have become so popular.",
+    "interests": ["cars", "travel"]
+  },
+  {
+    "id": "fact_004",
+    "pushBody": "Volkswagen owns more brands than you think.",
+    "fullBody": "The Volkswagen Group portfolio includes Audi, Bentley, Bugatti, Lamborghini, Porsche, SEAT, and Škoda, spanning from economy to ultra-luxury.",
+    "interests": ["cars", "money"]
+  },
+  {
+    "id": "fact_005",
+    "pushBody": "The three-point seatbelt was a gift from Volvo.",
+    "fullBody": "Volvo shared the 1959 patent for free with all competitors, prioritizing global road safety over profit. It is estimated to save a life every six minutes.",
+    "interests": ["cars", "philanthropy"]
+  },
+  {
+    "id": "fact_006",
+    "pushBody": "F1 cars can theoretically drive upside down.",
+    "fullBody": "At high speeds, a Formula 1 car generates enough aerodynamic downforce to overcome its own weight, allowing it to drive on the ceiling of a tunnel.",
+    "interests": ["cars", "fitness"]
+  },
+  {
+    "id": "fact_007",
+    "pushBody": "A single car has roughly 30,000 parts.",
+    "fullBody": "From the smallest electrical connectors to the engine block, it takes thousands of individual components working in unison to make a vehicle move.",
+    "interests": ["cars", "watches"]
+  },
+  {
+    "id": "fact_008",
+    "pushBody": "The first car radio cost 25% of the car.",
+    "fullBody": "The 1930 'Motorola' cost $130, which was nearly a quarter of the price of a Ford Model A at the time.",
+    "interests": ["cars", "money"]
+  },
+  {
+    "id": "fact_009",
+    "pushBody": "Cruise control was invented by a blind engineer.",
+    "fullBody": "Ralph Teetor created the system because he was frustrated by his lawyer's inconsistent driving speed while they were talking in the car.",
+    "interests": ["cars"]
+  },
+  {
+    "id": "fact_010",
+    "pushBody": "The highest mileage car hit 3 million miles.",
+    "fullBody": "Irv Gordon's 1966 Volvo 1800S holds the record for over 3.2 million miles driven—the equivalent of driving around the Earth 120 times.",
+    "interests": ["cars", "travel"]
+  },
+  {
+    "id": "fact_011",
+    "pushBody": "Ancient Romans used lead to sweeten wine.",
+    "fullBody": "The Romans used lead acetate, often called 'sugar of lead,' to sweeten their wine and preserve it. While it improved the taste, it unfortunately led to widespread chronic lead poisoning.",
+    "interests": ["wine", "art"]
+  },
+  {
+    "id": "fact_012",
+    "pushBody": "Darker red wines usually have more antioxidants.",
+    "fullBody": "Red wines like Cabernet Sauvignon and Petite Sirah contain higher concentrations of polyphenols and tannins, which are associated with cardiovascular health benefits when consumed in moderation.",
+    "interests": ["wine", "fitness"]
+  },
+  {
+    "id": "fact_013",
+    "pushBody": "One ton of grapes produces about 720 bottles.",
+    "fullBody": "It takes roughly 600 to 800 clusters of grapes to create a single barrel of wine, which translates to approximately 2.4 gallons per case of 12 bottles.",
+    "interests": ["wine", "money"]
+  },
+  {
+    "id": "fact_014",
+    "pushBody": "The world's oldest bottle of wine is 1,700 years old.",
+    "fullBody": "Found in a Roman tomb near Speyer, Germany, the 'Speyer wine bottle' dates back to 325 AD. It remains sealed with wax and contains a liquid that has largely turned to a solid, resinous mass.",
+    "interests": ["wine", "travel"]
+  },
+  {
+    "id": "fact_015",
+    "pushBody": "Champagne was originally an accidental 'error'.",
+    "fullBody": "The bubbles in Champagne were initially considered a winemaking flaw. It wasn't until the 17th century that producers like Dom Pérignon refined the process to embrace the effervescence.",
+    "interests": ["wine", "dining"]
+  },
+  {
+    "id": "fact_016",
+    "pushBody": "The 'tears' of wine indicate alcohol content.",
+    "fullBody": "The droplets that crawl down the side of a glass, known as 'legs' or 'tears,' are a result of fluid surface tension and indicate a higher alcohol or sugar concentration rather than quality.",
+    "interests": ["wine", "art"]
+  },
+  {
+    "id": "fact_017",
+    "pushBody": "Red and white wine come from the same juice.",
+    "fullBody": "Almost all grape juice is clear. Red wine gets its color from staying in contact with the grape skins during fermentation, while white wine is fermented without the skins.",
+    "interests": ["wine", "dining"]
+  },
+  {
+    "id": "fact_018",
+    "pushBody": "Wine was used as currency in ancient Egypt.",
+    "fullBody": "In ancient Egypt, wine was so highly valued that it was often used in trade and offered as a high-status gift to pharaohs and officials to secure political favors.",
+    "interests": ["wine", "money"]
+  },
+  {
+    "id": "fact_019",
+    "pushBody": "The world's largest wine cellar is 120 miles long.",
+    "fullBody": "Located in Mileștii Mici, Moldova, this underground 'wine city' holds over 2 million bottles and requires a car to navigate the labyrinthine limestone tunnels.",
+    "interests": ["wine", "travel"]
+  },
+  {
+    "id": "fact_020",
+    "pushBody": "Custom wine labels support global charities.",
+    "fullBody": "Many high-end vineyards produce limited-edition 'charity cuvées' where 100% of the proceeds go toward clean water initiatives and medical research.",
+    "interests": ["wine", "philanthropy"]
+  },
+  {
+    "id": "fact_021",
+    "pushBody": "The first 'modern' restaurant opened in 1765.",
+    "fullBody": "A Parisian named Boulanger sold 'restoratives'—soups intended to restore health. Before this, taverns only served whatever single dish the innkeeper had prepared for the day.",
+    "interests": ["dining", "travel"]
+  },
+  {
+    "id": "fact_022",
+    "pushBody": "Pufferfish is a culinary 'game of chance'.",
+    "fullBody": "Fugu contains tetrodotoxin, which is 1,200 times deadlier than cyanide. Chefs in Japan must undergo years of rigorous training and licensing to legally serve it.",
+    "interests": ["dining", "fitness"]
+  },
+  {
+    "id": "fact_023",
+    "pushBody": "The world's most expensive spice is Saffron.",
+    "fullBody": "It takes roughly 75,000 saffron crocus flowers to produce just one pound of the spice, as each flower only contains three hand-picked stigmas.",
+    "interests": ["dining", "money"]
+  },
+  {
+    "id": "fact_024",
+    "pushBody": "White chocolate isn't technically chocolate.",
+    "fullBody": "Since it contains no cocoa solids or chocolate liquor, it is legally classified as a confection. It is primarily made of cocoa butter, sugar, and milk solids.",
+    "interests": ["dining"]
+  },
+  {
+    "id": "fact_025",
+    "pushBody": "Apples are 25% air, which is why they float.",
+    "fullBody": "The low density caused by air pockets within the fruit's cellular structure allows them to bob on the surface of water, making 'bobbing for apples' possible.",
+    "interests": ["dining", "fitness"]
+  },
+  {
+    "id": "fact_026",
+    "pushBody": "The 'Michelin Star' started as a tire promotion.",
+    "fullBody": "The Michelin tire company created the guide in 1900 to encourage motorists to drive further to visit distant restaurants, thereby wearing out their tires faster.",
+    "interests": ["dining", "cars"]
+  },
+  {
+    "id": "fact_027",
+    "pushBody": "Truffles are found by pigs and dogs.",
+    "fullBody": "These rare fungi grow underground near tree roots. While female pigs are naturally attracted to the scent, many harvesters now use trained dogs to prevent the pigs from eating the finds.",
+    "interests": ["dining", "money"]
+  },
+  {
+    "id": "fact_028",
+    "pushBody": "The sandwich was named after a gambling habit.",
+    "fullBody": "John Montagu, the 4th Earl of Sandwich, requested meat between two slices of bread so he could eat with one hand and continue playing cards without greasy fingers.",
+    "interests": ["dining", "art"]
+  },
+  {
+    "id": "fact_029",
+    "pushBody": "Ketchup was once sold as medicine.",
+    "fullBody": "In the 1830s, tomato ketchup was sold in pill form as a cure for indigestion and jaundice before it became a popular condiment for meals.",
+    "interests": ["dining", "fitness"]
+  },
+  {
+    "id": "fact_030",
+    "pushBody": "Some restaurants give 100% of profits to charity.",
+    "fullBody": "Social enterprise restaurants operate on a philanthropic model where all surplus revenue is directed toward local food banks or community training programs.",
+    "interests": ["dining", "philanthropy"]
+  },
+
+  {
+    "id": "fact_031",
+    "pushBody": "The first 'Fashion Week' was held in 1943.",
+    "fullBody": "New York Fashion Week was created during WWII to distract attention from French fashion, as designers were unable to travel to Paris due to the German occupation.",
+    "interests": ["fashion", "travel"]
+  },
+  {
+    "id": "fact_032",
+    "pushBody": "Buttons on jacket sleeves are a military relic.",
+    "fullBody": "Napoleon Bonaparte reportedly ordered buttons to be sewn onto the sleeves of his soldiers' coats to prevent them from wiping their noses on their uniforms.",
+    "interests": ["fashion", "art"]
+  },
+  {
+    "id": "fact_033",
+    "pushBody": "The 'Little Black Dress' was a Ford comparison.",
+    "fullBody": "When Vogue first published Coco Chanel's LBD in 1926, they called it 'Chanel's Ford' because it was simple, accessible to all classes, and only came in black.",
+    "interests": ["fashion", "cars"]
+  },
+  {
+    "id": "fact_034",
+    "pushBody": "High heels were originally worn by men.",
+    "fullBody": "In the 10th century, Persian cavalry wore heels to help their feet stay in their stirrups while riding horses. It was a symbol of masculinity and military status.",
+    "interests": ["fashion", "fitness"]
+  },
+  {
+    "id": "fact_035",
+    "pushBody": "Levi's 'Watch Pocket' has survived for 150 years.",
+    "fullBody": "The tiny extra pocket on the right side of jeans was originally designed for cowboys to protect their pocket watches; it remains a standard feature today.",
+    "interests": ["fashion", "watches"]
+  },
+  {
+    "id": "fact_036",
+    "pushBody": "The world's most expensive dress cost $30 million.",
+    "fullBody": "Known as the 'Nightingale of Kuala Lumpur,' this gown features 751 diamonds and a 70-carat pear-shaped diamond, making it a masterpiece of wearable art.",
+    "interests": ["fashion", "money"]
+  },
+  {
+    "id": "fact_037",
+    "pushBody": "Sneakers got their name from being 'silent'.",
+    "fullBody": "In the late 1800s, rubber-soled shoes were dubbed 'sneakers' because they allowed the wearer to walk around so quietly that they could 'sneak up' on someone.",
+    "interests": ["fashion", "fitness"]
+  },
+  {
+    "id": "fact_038",
+    "pushBody": "A single silk cocoon produces 1,000 yards of fiber.",
+    "fullBody": "To make just one silk scarf, it takes roughly 40 to 50 cocoons. The process of harvesting silk has remained largely unchanged for thousands of years.",
+    "interests": ["fashion", "art"]
+  },
+  {
+    "id": "fact_039",
+    "pushBody": "Cotton is the most used natural fiber.",
+    "fullBody": "Cotton accounts for about 33% of all fibers used in textiles globally, though synthetic fibers like polyester have overtaken it in total production volume.",
+    "interests": ["fashion"]
+  },
+  {
+    "id": "fact_040",
+    "pushBody": "Pre-loved fashion reduces carbon footprints.",
+    "fullBody": "Buying one used garment instead of a new one can reduce its carbon footprint by over 80%, leading to a massive rise in philanthropic thrift initiatives.",
+    "interests": ["fashion", "philanthropy"]
+  },
+  {
+    "id": "fact_041",
+    "pushBody": "The first wristwatch was for a queen.",
+    "fullBody": "In 1810, Abraham-Louis Breguet created the world's first wristwatch for the Queen of Naples. Before this, watches were almost exclusively kept in pockets.",
+    "interests": ["watches", "fashion"]
+  },
+  {
+    "id": "fact_042",
+    "pushBody": "Automatic watches 'charge' with your movement.",
+    "fullBody": "Mechanical automatic watches use a weighted rotor that spins as you move your arm, winding the mainspring and storing energy without the need for a battery.",
+    "interests": ["watches", "fitness"]
+  },
+  {
+    "id": "fact_043",
+    "pushBody": "Rolex was the first to cross the English Channel.",
+    "fullBody": "In 1927, Mercedes Gleitze swam the English Channel wearing a Rolex Oyster. After 10 hours in cold water, the watch remained in perfect working order.",
+    "interests": ["watches", "fitness"]
+  },
+  {
+    "id": "fact_044",
+    "pushBody": "The Moonwatch was a standard NASA purchase.",
+    "fullBody": "The Omega Speedmaster became the 'Moonwatch' after passing NASA's rigorous testing for extreme temperatures, vibrations, and hard vacuum conditions.",
+    "interests": ["watches", "travel"]
+  },
+  {
+    "id": "fact_045",
+    "pushBody": "Quartz watches use a vibrating crystal.",
+    "fullBody": "A tiny piece of quartz crystal vibrates exactly 32,768 times per second when electrified, providing the consistent pulse that makes modern watches so accurate.",
+    "interests": ["watches"]
+  },
+  {
+    "id": "fact_046",
+    "pushBody": "The 'Patek Philippe' auction record is $31 million.",
+    "fullBody": "The Grandmaster Chime 6300A-010 is the most expensive watch ever sold at auction, featuring 20 complications and two distinct dials.",
+    "interests": ["watches", "money"]
+  },
+  {
+    "id": "fact_047",
+    "pushBody": "Swiss Made is a legally protected label.",
+    "fullBody": "For a watch to be 'Swiss Made,' at least 60% of its production costs must be generated in Switzerland and the movement must be encased there.",
+    "interests": ["watches", "money"]
+  },
+  {
+    "id": "fact_048",
+    "pushBody": "Tachymeters calculate speed over distance.",
+    "fullBody": "The scale found on many chronograph bezels allows the wearer to measure speed based on time traveled or distance based on speed, much like a manual computer.",
+    "interests": ["watches", "cars"]
+  },
+  {
+    "id": "fact_049",
+    "pushBody": "Skeleton watches turn mechanics into art.",
+    "fullBody": "By removing non-essential metal from the movement, watchmakers reveal the intricate gears and springs, transforming a functional tool into a visual masterpiece.",
+    "interests": ["watches", "art"]
+  },
+  {
+    "id": "fact_050",
+    "pushBody": "Watch auctions often benefit medical research.",
+    "fullBody": "Events like 'Only Watch' feature unique timepieces from top brands, with 99% of proceeds going toward research for Duchenne Muscular Dystrophy.",
+    "interests": ["watches", "philanthropy"]
+  },
+
+  {
+    "id": "fact_051",
+    "pushBody": "The Mona Lisa was stolen by an employee.",
+    "fullBody": "In 1911, an Italian handyman named Vincenzo Peruggia hid in a broom closet and walked out with the painting. The theft actually made the portrait the world-famous icon it is today.",
+    "interests": ["art", "travel"]
+  },
+  {
+    "id": "fact_052",
+    "pushBody": "Vermeer used a 'camera' to paint.",
+    "fullBody": "Many historians believe Johannes Vermeer used a camera obscura—a primitive light-projecting device—to achieve the near-photographic realism and lighting in his 17th-century masterpieces.",
+    "interests": ["art", "watches"]
+  },
+  {
+    "id": "fact_053",
+    "pushBody": "Picasso could draw before he could speak.",
+    "fullBody": "Pablo Picasso’s first word was 'piz,' short for 'lápiz' (Spanish for pencil). He displayed such talent that his father, an art teacher, reportedly gave up painting because his son surpassed him.",
+    "interests": ["art"]
+  },
+  {
+    "id": "fact_054",
+    "pushBody": "The color 'Vantablack' is owned by one artist.",
+    "fullBody": "Sculptor Anish Kapoor sparked a massive art-world controversy when he bought the exclusive rights to use the 'blackest black' pigment, which absorbs 99.96% of light.",
+    "interests": ["art", "money"]
+  },
+  {
+    "id": "fact_055",
+    "pushBody": "Michelangelo hated painting the Sistine Chapel.",
+    "fullBody": "Primarily a sculptor, Michelangelo wrote a poem describing the physical agony of the four-year project, noting that his 'beard turned to heaven' and 'neck was bent into his hump.'",
+    "interests": ["art", "fitness"]
+  },
+  {
+    "id": "fact_056",
+    "pushBody": "The Louvre was originally a fortress.",
+    "fullBody": "Before becoming the world's largest art museum, the site was a 12th-century medieval fortress built to protect Paris from Viking raids. You can still see the original foundations in the basement.",
+    "interests": ["art", "travel"]
+  },
+  {
+    "id": "fact_057",
+    "pushBody": "A shredder was built into a $1.4M painting.",
+    "fullBody": "Banksy's 'Girl with Balloon' began shredding itself immediately after being sold at auction. The half-shredded work was renamed 'Love is in the Bin' and later sold for over $25 million.",
+    "interests": ["art", "money"]
+  },
+  {
+    "id": "fact_058",
+    "pushBody": "Purple dye was once worth its weight in gold.",
+    "fullBody": "Tyrian purple was harvested from thousands of sea snails, making it so expensive that for centuries, only royalty and high-ranking officials were legally allowed to wear the color.",
+    "interests": ["art", "fashion"]
+  },
+  {
+    "id": "fact_059",
+    "pushBody": "Art used to be an Olympic sport.",
+    "fullBody": "From 1912 to 1948, the Olympic Games awarded medals for architecture, literature, music, painting, and sculpture, provided the works were inspired by athletic efforts.",
+    "interests": ["art", "fitness"]
+  },
+  {
+    "id": "fact_060",
+    "pushBody": "Stolen art funds humanitarian aid.",
+    "fullBody": "Large-scale art restitution programs often use the proceeds from found, unclaimed Nazi-looted art to fund global Holocaust education and refugee relief efforts.",
+    "interests": ["art", "philanthropy"]
+  },
+
+  {
+    "id": "fact_061",
+    "pushBody": "France is the world's most visited country.",
+    "fullBody": "With nearly 90 million international arrivals annually, France consistently ranks as the top travel destination, followed by Spain and the United States.",
+    "interests": ["travel", "dining"]
+  },
+  {
+    "id": "fact_062",
+    "pushBody": "The shortest commercial flight is 53 seconds.",
+    "fullBody": "The flight between Westray and Papa Westray in Scotland's Orkney Islands covers just 1.7 miles. On a windy day, the journey can take less than a minute.",
+    "interests": ["travel", "watches"]
+  },
+  {
+    "id": "fact_063",
+    "pushBody": "Jet lag feels worse traveling East.",
+    "fullBody": "Traveling East 'shortens' the day, which is harder for the body's internal clock to adjust to than the 'lengthened' day experienced when traveling West.",
+    "interests": ["travel", "fitness"]
+  },
+  {
+    "id": "fact_064",
+    "pushBody": "The Great Wall isn't visible from space.",
+    "fullBody": "Contrary to the popular myth, the Great Wall of China cannot be seen with the naked eye from low Earth orbit. It is often too narrow and matches the surrounding colors.",
+    "interests": ["travel", "art"]
+  },
+  {
+    "id": "fact_065",
+    "pushBody": "Tokyo has the world's busiest intersection.",
+    "fullBody": "Shibuya Crossing can see as many as 3,000 people crossing at once during a single green light, making it a must-see landmark for urban travelers.",
+    "interests": ["travel", "fashion"]
+  },
+  {
+    "id": "fact_066",
+    "pushBody": "Finland has more saunas than cars.",
+    "fullBody": "With a population of 5.5 million, Finland boasts over 3 million saunas. They are an integral part of the culture and are found in homes, offices, and even fast-food outlets.",
+    "interests": ["travel", "cars"]
+  },
+  {
+    "id": "fact_067",
+    "pushBody": "Russia has 11 different time zones.",
+    "fullBody": "As the largest country by landmass, Russia spans so much of the globe that when it is morning on one side, it is already evening on the other.",
+    "interests": ["travel", "watches"]
+  },
+  {
+    "id": "fact_068",
+    "pushBody": "A 'Round the World' ticket is a real thing.",
+    "fullBody": "Airline alliances offer RTW tickets that allow travelers to visit multiple continents on a single itinerary, often costing less than individual one-way bookings.",
+    "interests": ["travel", "money"]
+  },
+  {
+    "id": "fact_069",
+    "pushBody": "Venice is actually sinking into the lagoon.",
+    "fullBody": "The city is subsiding at a rate of about 1-2 millimeters per year. Massive engineering projects like the MOSE barriers are now used to protect it from high tides.",
+    "interests": ["travel", "art"]
+  },
+  {
+    "id": "fact_070",
+    "pushBody": "Sustainable travel supports local communities.",
+    "fullBody": "Ecotourism initiatives ensure that travel revenue stays within local villages to fund schools and conservation, rather than going to international corporations.",
+    "interests": ["travel", "philanthropy"]
+  },
+
+  {
+    "id": "fact_071",
+    "pushBody": "Golf is one of two sports played on the Moon.",
+    "fullBody": "During the Apollo 14 mission in 1971, Alan Shepard hit two golf balls with a six-iron head attached to a lunar sample scoop, making it a literal out-of-this-world sport.",
+    "interests": ["golf", "travel"]
+  },
+  {
+    "id": "fact_072",
+    "pushBody": "Modern golf balls have between 300 and 500 dimples.",
+    "fullBody": "These indentations create a thin turbulent boundary layer of air that clings to the ball's surface, reducing drag and allowing it to travel twice as far as a smooth ball.",
+    "interests": ["golf", "fitness"]
+  },
+  {
+    "id": "fact_073",
+    "pushBody": "The first golf balls were made of wood and feathers.",
+    "fullBody": "Before the 'gutta-percha' ball, golfers used 'featheries'—leather pouches stuffed with boiled feathers. They were expensive to make and easily damaged in wet weather.",
+    "interests": ["golf", "history"]
+  },
+  {
+    "id": "fact_074",
+    "pushBody": "St Andrews is the undisputed home of golf.",
+    "fullBody": "The Old Course at St Andrews in Scotland has been used for play since the 15th century. It is the site where the standard 18-hole round was first established in 1764.",
+    "interests": ["golf", "travel"]
+  },
+  {
+    "id": "fact_075",
+    "pushBody": "The odds of a hole-in-one are roughly 12,500 to 1.",
+    "fullBody": "While professional golfers have much better odds (around 2,500 to 1), the average amateur player will likely play a lifetime of rounds before witnessing an ace.",
+    "interests": ["golf", "money"]
+  },
+  {
+    "id": "fact_076",
+    "pushBody": "Golf was banned in Scotland three times.",
+    "fullBody": "Between 1457 and 1491, the Scottish Parliament banned golf because they believed it was distracting men from their essential archery practice for national defense.",
+    "interests": ["golf", "fitness"]
+  },
+  {
+    "id": "fact_077",
+    "pushBody": "The 'Masters' Green Jacket is a borrowed tradition.",
+    "fullBody": "Since 1949, the winner of the Masters has been awarded the iconic jacket, which must be returned to the clubhouse one year later and remains the property of Augusta National.",
+    "interests": ["golf", "fashion"]
+  },
+  {
+    "id": "fact_078",
+    "pushBody": "Tiger Woods made his first hole-in-one at age six.",
+    "fullBody": "The golf prodigy achieved the feat long before his professional career began, showcasing the early precision that would later dominate the PGA Tour.",
+    "interests": ["golf"]
+  },
+  {
+    "id": "fact_079",
+    "pushBody": "Caddies were originally 'cadets' from the military.",
+    "fullBody": "The term likely originated from Mary Queen of Scots, who used military cadets to carry her clubs. The French word 'cadet' eventually evolved into the English 'caddie'.",
+    "interests": ["golf", "art"]
+  },
+  {
+    "id": "fact_080",
+    "pushBody": "Charity golf tournaments raise billions annually.",
+    "fullBody": "Golf is a leading sport for philanthropy; individual tournaments and PGA-affiliated events raise over $4 billion each year for various local and global causes.",
+    "interests": ["golf", "philanthropy"]
+  },
+  {
+    "id": "fact_081",
+    "pushBody": "The world's largest cruise ship is 1,200 feet long.",
+    "fullBody": "Modern 'Icon Class' vessels are nearly five times the size of the Titanic, featuring 20 decks and enough internal volume to house several city blocks.",
+    "interests": ["boats", "travel"]
+  },
+  {
+    "id": "fact_082",
+    "pushBody": "Superyachts use 'dynamic positioning' to park.",
+    "fullBody": "Instead of traditional anchors that can damage coral reefs, high-end boats use GPS-linked thrusters to maintain their exact position automatically.",
+    "interests": ["boats", "watches"]
+  },
+  {
+    "id": "fact_083",
+    "pushBody": "The fastest boat reached 317 mph.",
+    "fullBody": "The 'Spirit of Australia' holds the world water speed record. Traveling at these speeds on water is incredibly dangerous because the liquid acts like solid concrete during an impact.",
+    "interests": ["boats", "cars"]
+  },
+  {
+    "id": "fact_084",
+    "pushBody": "Sailboats can actually sail faster than the wind.",
+    "fullBody": "Through a phenomenon called 'apparent wind,' modern foiling sailboats can reach speeds up to three or four times faster than the actual wind speed blowing across the water.",
+    "interests": ["boats", "fitness"]
+  },
+  {
+    "id": "fact_085",
+    "pushBody": "The 'Knock Nevis' was the longest ship ever built.",
+    "fullBody": "This ULCC supertanker was 1,504 feet long—longer than the Empire State Building is tall. It was so massive that it required several miles to come to a full stop.",
+    "interests": ["boats", "money"]
+  },
+  {
+    "id": "fact_086",
+    "pushBody": "Viking longships could sail in very shallow water.",
+    "fullBody": "Their unique 'clinker' design allowed them to navigate waters only three feet deep, enabling Vikings to travel far inland via rivers for surprise raids.",
+    "interests": ["boats", "travel"]
+  },
+  {
+    "id": "fact_087",
+    "pushBody": "Boat 'Knots' come from literal knots in a rope.",
+    "fullBody": "Sailors used to throw a log attached to a knotted rope overboard. They would count how many knots passed through their hands in 30 seconds to measure speed.",
+    "interests": ["boats", "watches"]
+  },
+  {
+    "id": "fact_088",
+    "pushBody": "The most expensive yacht cost $4.8 billion.",
+    "fullBody": "The 'History Supreme' is reportedly plated with 100,000 kg of gold and platinum, and even features a statue made from genuine T-Rex dinosaur bones.",
+    "interests": ["boats", "money"]
+  },
+  {
+    "id": "fact_089",
+    "pushBody": "Venetian Gondolas are always painted black.",
+    "fullBody": "A 16th-century law required all gondolas to be black to prevent wealthy citizens from outdoing each other with extravagant and gaudy decorations.",
+    "interests": ["boats", "art"]
+  },
+  {
+    "id": "fact_090",
+    "pushBody": "Hospital ships provide free surgery worldwide.",
+    "fullBody": "Philanthropic organizations operate massive converted vessels that travel to developing nations, providing state-of-the-art medical care to thousands of people in need.",
+    "interests": ["boats", "philanthropy"]
+  },
+  {
+    "id": "fact_091",
+    "pushBody": "Your heart is the strongest muscle in your body.",
+    "fullBody": "The heart pumps about 2,000 gallons of blood every day and beats over 100,000 times. It produces enough energy daily to drive a truck for 20 miles.",
+    "interests": ["fitness", "cars"]
+  },
+  {
+    "id": "fact_092",
+    "pushBody": "Running 1 mile burns about 100 calories.",
+    "fullBody": "While the exact number depends on weight and intensity, a general rule of thumb is that the body uses roughly 100 calories per mile, whether walking or running.",
+    "interests": ["fitness", "dining"]
+  },
+  {
+    "id": "fact_093",
+    "pushBody": "Muscle tissue burns more than fat at rest.",
+    "fullBody": "Muscle is metabolically active; having more muscle mass increases your resting metabolic rate, meaning you burn more calories even when you aren't moving.",
+    "interests": ["fitness", "money"]
+  },
+  {
+    "id": "fact_094",
+    "pushBody": "The world's longest plank lasted over 9 hours.",
+    "fullBody": "In 2023, Josef Šálek held a plank for 9 hours, 38 minutes, and 47 seconds, demonstrating the extreme limits of core stability and mental endurance.",
+    "interests": ["fitness", "watches"]
+  },
+  {
+    "id": "fact_095",
+    "pushBody": "Stretching doesn't actually prevent soreness.",
+    "fullBody": "Research shows that static stretching before or after a workout has little effect on 'Delayed Onset Muscle Soreness' (DOMS), though it does improve long-term flexibility.",
+    "interests": ["fitness", "art"]
+  },
+  {
+    "id": "fact_096",
+    "pushBody": "Music can boost workout performance by 15%.",
+    "fullBody": "Listening to high-tempo music can distract the brain from fatigue and increase endurance, acting as a legal, non-invasive performance enhancer.",
+    "interests": ["fitness", "fashion"]
+  },
+  {
+    "id": "fact_097",
+    "pushBody": "A 30-minute swim is a full-body reset.",
+    "fullBody": "Swimming engages almost every major muscle group—including shoulders, core, and glutes—while providing a low-impact cardiovascular workout that is easy on the joints.",
+    "interests": ["fitness", "boats"]
+  },
+  {
+    "id": "fact_098",
+    "pushBody": "The first 'gyms' were in Ancient Greece.",
+    "fullBody": "The word 'gymnasium' comes from the Greek 'gymnos,' meaning naked. Athletes originally trained and competed without clothing to celebrate the human form.",
+    "interests": ["fitness", "history"]
+  },
+  {
+    "id": "fact_099",
+    "pushBody": "Hiking in nature reduces stress more than the gym.",
+    "fullBody": "Studies on 'Green Exercise' show that physical activity in natural environments leads to a significantly greater decrease in cortisol levels than indoor workouts.",
+    "interests": ["fitness", "travel"]
+  },
+  {
+    "id": "fact_100",
+    "pushBody": "Fitness programs fund community health centers.",
+    "fullBody": "Many global fitness challenges and marathons are structured as philanthropic events, raising millions annually for disease prevention and accessible healthcare.",
+    "interests": ["fitness", "philanthropy"]
+  },
+  {
+    "id": "fact_101",
+    "pushBody": "The world's first paper money was Chinese.",
+    "fullBody": "Introduced during the Tang Dynasty in the 7th century, 'flying cash' was a response to the difficulty of carrying heavy strings of copper coins over long distances.",
+    "interests": ["money", "travel"]
+  },
+  {
+    "id": "fact_102",
+    "pushBody": "92% of the world's currency is digital.",
+    "fullBody": "Most money today exists only on bank servers and hard drives; physical cash—coins and banknotes—only accounts for roughly 8% of the global money supply.",
+    "interests": ["money", "watches"]
+  },
+  {
+    "id": "fact_103",
+    "pushBody": "The U.S. $1 bill hasn't changed since 1963.",
+    "fullBody": "Unlike other denominations that are frequently redesigned to prevent counterfeiting, the $1 bill is rarely faked and remains the most stable design in U.S. currency.",
+    "interests": ["money", "art"]
+  },
+  {
+    "id": "fact_104",
+    "pushBody": "A 'Penny' costs more than one cent to make.",
+    "fullBody": "Due to the rising costs of zinc and copper, the United States Mint spends approximately 2.7 cents to manufacture each one-cent coin.",
+    "interests": ["money", "cars"]
+  },
+  {
+    "id": "fact_105",
+    "pushBody": "The Monopoly Man was inspired by J.P. Morgan.",
+    "fullBody": "The iconic character, known as 'Rich Uncle Pennybags,' is widely believed to be modeled after the famous American financier and banker.",
+    "interests": ["money", "fashion"]
+  },
+  {
+    "id": "fact_106",
+    "pushBody": "The first ATM was inspired by a chocolate machine.",
+    "fullBody": "In 1967, John Shepherd-Barron realized that if a machine could dispense a bar of chocolate, it should be able to dispense cash; the first one was installed in London.",
+    "interests": ["money", "dining"]
+  },
+  {
+    "id": "fact_107",
+    "pushBody": "Warren Buffett still lives in a 1958 house.",
+    "fullBody": "Despite being one of the wealthiest people on Earth, the legendary investor still resides in the Omaha home he bought for $31,500 over 60 years ago.",
+    "interests": ["money", "philanthropy"]
+  },
+  {
+    "id": "fact_108",
+    "pushBody": "The largest banknote ever was 100 quintillion.",
+    "fullBody": "During the 1946 Hungarian hyperinflation, the 100 million billion (10^20) pengő note was printed, though it was worth almost nothing by the time it hit the streets.",
+    "interests": ["money", "history"]
+  },
+  {
+    "id": "fact_109",
+    "pushBody": "In-game currency can have real-world value.",
+    "fullBody": "The economies of some massive multiplayer games are so robust that their virtual currency exchange rates have occasionally surpassed the value of real national currencies.",
+    "interests": ["money", "fitness"]
+  },
+  {
+    "id": "fact_110",
+    "pushBody": "Impact investing creates social change.",
+    "fullBody": "This philanthropic financial strategy involves investing in companies that generate measurable social or environmental benefits alongside a financial return.",
+    "interests": ["money", "philanthropy"]
+  }
+]

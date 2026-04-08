@@ -1,0 +1,251 @@
+[
+  {
+    "number": 1,
+    "title": "The Two Educations",
+    "partId": "part_i",
+    "alwaysInclude": true,
+    "readTime": 4
+  },
+  {
+    "number": 2,
+    "title": "The Wealth Spectrum You're Now Navigating",
+    "partId": "part_i",
+    "alwaysInclude": true,
+    "readTime": 5
+  },
+  {
+    "number": 3,
+    "title": "The Art of Not Faking It",
+    "partId": "part_i",
+    "alwaysInclude": true,
+    "readTime": 6
+  },
+  {
+    "number": 4,
+    "title": "Wine: The Language of Every Important Dinner",
+    "partId": "part_ii",
+    "interests": [
+      "wine"
+    ],
+    "readTime": 5
+  },
+  {
+    "number": 5,
+    "title": "Spirits, Cocktails & the Bar Cart",
+    "partId": "part_ii",
+    "interests": [
+      "wine"
+    ],
+    "readTime": 5
+  },
+  {
+    "number": 6,
+    "title": "Cigars: The Original Networking Tool",
+    "partId": "part_ii",
+    "interests": [
+      "wine",
+      "dining"
+    ],
+    "readTime": 4
+  },
+  {
+    "number": 7,
+    "title": "Fine Dining & Food Culture",
+    "partId": "part_ii",
+    "interests": [
+      "dining"
+    ],
+    "readTime": 6
+  },
+  {
+    "number": 8,
+    "title": "Cars: More Than Transportation",
+    "partId": "part_iii",
+    "interests": [
+      "cars"
+    ],
+    "readTime": 5
+  },
+  {
+    "number": 9,
+    "title": "Watches: The Silent Status Signal",
+    "partId": "part_iii",
+    "interests": [
+      "watches"
+    ],
+    "readTime": 6
+  },
+  {
+    "number": 10,
+    "title": "Fashion & Personal Style",
+    "partId": "part_iii",
+    "interests": [
+      "fashion"
+    ],
+    "readTime": 6
+  },
+  {
+    "number": 11,
+    "title": "Art: The Conversation You Can't Avoid",
+    "partId": "part_iii",
+    "interests": [
+      "art"
+    ],
+    "readTime": 5
+  },
+  {
+    "number": 12,
+    "title": "Travel: Beyond the Resort",
+    "partId": "part_iv",
+    "interests": [
+      "travel"
+    ],
+    "readTime": 6
+  },
+  {
+    "number": 13,
+    "title": "Golf: The Sport of Deals",
+    "partId": "part_iv",
+    "interests": [
+      "golf"
+    ],
+    "readTime": 5
+  },
+  {
+    "number": 14,
+    "title": "Tennis, Skiing & Country Club Sports",
+    "partId": "part_iv",
+    "interests": [
+      "golf"
+    ],
+    "readTime": 5
+  },
+  {
+    "number": 15,
+    "title": "Boating & Yachting",
+    "partId": "part_iv",
+    "interests": [
+      "boats"
+    ],
+    "readTime": 4
+  },
+  {
+    "number": 16,
+    "title": "Physical Fitness: Health as the New Wealth",
+    "partId": "part_v",
+    "interests": [
+      "fitness"
+    ],
+    "readTime": 6
+  },
+  {
+    "number": 17,
+    "title": "Mental Fitness: Guarding the Mind That Built Your Career",
+    "partId": "part_v",
+    "alwaysInclude": true,
+    "readTime": 6
+  },
+  {
+    "number": 18,
+    "title": "Spiritual Fitness: Nourishing the Soul",
+    "partId": "part_v",
+    "readTime": 5,
+    "faithOnly": true
+  },
+  {
+    "number": 19,
+    "title": "The Wellness Conversation",
+    "partId": "part_v",
+    "interests": [
+      "fitness"
+    ],
+    "readTime": 4
+  },
+  {
+    "number": 20,
+    "title": "Real Estate: The Universal Wealth Conversation",
+    "partId": "part_vi",
+    "interests": [
+      "money"
+    ],
+    "readTime": 4
+  },
+  {
+    "number": 21,
+    "title": "Investing Beyond Your 401(k)",
+    "partId": "part_vi",
+    "interests": [
+      "money"
+    ],
+    "readTime": 5
+  },
+  {
+    "number": 22,
+    "title": "Philanthropy & Giving",
+    "partId": "part_vi",
+    "interests": [
+      "philanthropy",
+      "money"
+    ],
+    "readTime": 4
+  },
+  {
+    "number": 23,
+    "title": "Private Clubs & Membership Culture",
+    "partId": "part_vii",
+    "interests": [
+      "golf"
+    ],
+    "alwaysInclude": true,
+    "readTime": 4
+  },
+  {
+    "number": 24,
+    "title": "The Power of Your Network",
+    "partId": "part_vii",
+    "alwaysInclude": true,
+    "readTime": 10
+  },
+  {
+    "number": 25,
+    "title": "The Grace of Good Manners",
+    "partId": "part_vii",
+    "alwaysInclude": true,
+    "readTime": 10
+  },
+  {
+    "number": 26,
+    "title": "Entertaining, Hosting & Social Intelligence",
+    "partId": "part_vii",
+    "alwaysInclude": true,
+    "readTime": 4
+  },
+  {
+    "number": 27,
+    "title": "The Conversational Toolkit",
+    "partId": "part_vii",
+    "alwaysInclude": true,
+    "readTime": 4
+  },
+  {
+    "number": 28,
+    "title": "Raising First-Generation Wealthy Children",
+    "partId": "part_viii",
+    "readTime": 5,
+    "parentOnly": true
+  },
+  {
+    "number": 29,
+    "title": "The Wealth You're Actually Building",
+    "partId": "part_viii",
+    "alwaysInclude": true,
+    "readTime": 4
+  },
+  {
+    "number": 30,
+    "title": "Your Playbook — A 12-Month Action Plan",
+    "partId": "part_viii",
+    "alwaysInclude": true,
+    "readTime": 5
+  }
+]

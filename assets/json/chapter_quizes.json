@@ -1,0 +1,3681 @@
+{
+  "version": 1,
+  "generatedAt": "2026-03-01T20:55:58.421291Z",
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "The Two Educations",
+      "questionCount": 6,
+      "questions": [
+        {
+          "id": "c1_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **Think of it this way** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A style that signals wealth without logos."
+            },
+            {
+              "id": "b",
+              "text": "A technique for ordering wine by choosing the cheapest bottle."
+            },
+            {
+              "id": "c",
+              "text": "A tier used to describe net worth and lifestyle differences."
+            },
+            {
+              "id": "d",
+              "text": "your first education got you to the table. Your second education determines whether people want to keep dining with you."
+            }
+          ],
+          "answer": "d",
+          "explanation": "your first education got you to the table. Your second education determines whether people want to keep dining with you."
+        },
+        {
+          "id": "c1_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "It’s always correct to argue about the check in business settings."
+            },
+            {
+              "id": "b",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            },
+            {
+              "id": "c",
+              "text": "Cultural fluency is judged only in formal performance reviews."
+            },
+            {
+              "id": "d",
+              "text": "Start by auditing your gaps: which domains cause the most anxiety in your actual professional and social life?"
+            }
+          ],
+          "answer": "d",
+          "explanation": "Start by auditing your gaps: which domains cause the most anxiety in your actual professional and social life?"
+        },
+        {
+          "id": "c1_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "Etiquette doesn’t matter if your work is strong."
+            },
+            {
+              "id": "b",
+              "text": "You have two educations: professional credentials and cultural literacy. Most first-gen professionals have mastered the first and are starting the second."
+            },
+            {
+              "id": "c",
+              "text": "Start by auditing your gaps: which domains cause the most anxiety in your actual professional and social life?"
+            },
+            {
+              "id": "d",
+              "text": "Showing off brands and logos is the safest way to fit in."
+            }
+          ],
+          "answer": [
+            "b",
+            "c"
+          ],
+          "explanation": "Correct selections: Start by auditing your gaps: which domains cause the most anxiety in your actual professional and social life? | You have two educations: professional credentials and cultural literacy. Most first-gen professionals have mastered the first and are starting the second."
+        },
+        {
+          "id": "c1_q4",
+          "type": "single",
+          "prompt": "You’re invited to a client retreat and feel unsure about the social norms. What’s the best first step, according to this chapter’s mindset?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Audit your ‘invisible resume’ and identify the domains that create the most friction for you."
+            },
+            {
+              "id": "b",
+              "text": "Avoid those settings until you’ve mastered every topic."
+            },
+            {
+              "id": "c",
+              "text": "Buy expensive items that look like what others have."
+            },
+            {
+              "id": "d",
+              "text": "Pretend you already know the norms so nobody notices."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Audit your ‘invisible resume’ and identify the domains that create the most friction for you."
+        },
+        {
+          "id": "c1_q5",
+          "type": "text",
+          "prompt": "Short answer: Audit your own invisible resume honestly. What domains make you comfortable (maybe you already know food well) and which ones create anxiety (maybe it’s golf, or watches, or art)? Start with the gaps that cause the most friction in your actual professional life.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        },
+        {
+          "id": "c1_q6",
+          "type": "scale",
+          "prompt": "On a scale of 1–5, how likely are you to try the chapter’s suggested action in the next 7 days?",
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "labels": {
+              "1": "Unlikely",
+              "5": "Very likely"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "title": "The Wealth Spectrum You’re Now Navigating",
+      "questionCount": 6,
+      "questions": [
+        {
+          "id": "c2_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **UHNW** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A technique for ordering wine by choosing the cheapest bottle."
+            },
+            {
+              "id": "b",
+              "text": "Ultra-high-net-worth. Generally $30M+ in net assets. Roughly 265,000 individuals globally."
+            },
+            {
+              "id": "c",
+              "text": "A style that signals wealth without logos."
+            },
+            {
+              "id": "d",
+              "text": "A method for learning by asking questions instead of pretending."
+            }
+          ],
+          "answer": "b",
+          "explanation": "Ultra-high-net-worth. Generally $30M+ in net assets. Roughly 265,000 individuals globally."
+        },
+        {
+          "id": "c2_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The wealth spectrum runs from Affluent ($500K+) to HNW ($1M+) to VHNW ($10M+) to UHNW ($30M+). Each tier has different norms."
+            },
+            {
+              "id": "b",
+              "text": "It’s always correct to argue about the check in business settings."
+            },
+            {
+              "id": "c",
+              "text": "The best move is to imitate the spending of the wealthiest person present."
+            },
+            {
+              "id": "d",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            }
+          ],
+          "answer": "a",
+          "explanation": "The wealth spectrum runs from Affluent ($500K+) to HNW ($1M+) to VHNW ($10M+) to UHNW ($30M+). Each tier has different norms."
+        },
+        {
+          "id": "c2_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "Etiquette doesn’t matter if your work is strong."
+            },
+            {
+              "id": "b",
+              "text": "The biggest social mistake is trying to match the spending of someone three tiers above you. Curiosity always beats imitation."
+            },
+            {
+              "id": "c",
+              "text": "The wealth spectrum runs from Affluent ($500K+) to HNW ($1M+) to VHNW ($10M+) to UHNW ($30M+). Each tier has different norms."
+            },
+            {
+              "id": "d",
+              "text": "Always talk about price first to signal transparency."
+            }
+          ],
+          "answer": [
+            "b",
+            "c"
+          ],
+          "explanation": "Correct selections: The wealth spectrum runs from Affluent ($500K+) to HNW ($1M+) to VHNW ($10M+) to UHNW ($30M+). Each tier has different norms. | The biggest social mistake is trying to match the spending of someone three tiers above you. Curiosity always beats imitation."
+        },
+        {
+          "id": "c2_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c2_q5",
+          "type": "text",
+          "prompt": "Short answer: Next time you’re in an affluent social setting, quietly observe and categorize. Don’t judge—just notice. What tier are you in? What tier is the host? How does that affect the norms, the conversation, and the expectations? This observational habit is itself a form of fluency.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        },
+        {
+          "id": "c2_q6",
+          "type": "scale",
+          "prompt": "On a scale of 1–5, how likely are you to try the chapter’s suggested action in the next 7 days?",
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "labels": {
+              "1": "Unlikely",
+              "5": "Very likely"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "title": "The Art of Not Faking It",
+      "questionCount": 6,
+      "questions": [
+        {
+          "id": "c3_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **But here's the paradox** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A tier used to describe net worth and lifestyle differences."
+            },
+            {
+              "id": "b",
+              "text": "A style that signals wealth without logos."
+            },
+            {
+              "id": "c",
+              "text": "A social norm for handling a check discreetly."
+            },
+            {
+              "id": "d",
+              "text": "in affluent social settings, the person who asks great questions is almost always more compelling than the person who has all the answers. Because expertise is common in these rooms. Everyone knows about wine. Everyone has opinions about watches. What's rare—and what people genuinely enjoy—is someone who makes them feel interesting by asking the right questions."
+            }
+          ],
+          "answer": "d",
+          "explanation": "in affluent social settings, the person who asks great questions is almost always more compelling than the person who has all the answers. Because expertise is common in these rooms. Everyone knows about wine. Everyone has opinions about watches. What's rare—and what people genuinely enjoy—is someone who makes them feel interesting by asking the right questions."
+        },
+        {
+          "id": "c3_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Faking gets caught. Curiosity gets rewarded. Admitting “I’m new to this” is a power move, not a weakness."
+            },
+            {
+              "id": "b",
+              "text": "It’s always correct to argue about the check in business settings."
+            },
+            {
+              "id": "c",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            },
+            {
+              "id": "d",
+              "text": "Cultural fluency is judged only in formal performance reviews."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Faking gets caught. Curiosity gets rewarded. Admitting “I’m new to this” is a power move, not a weakness."
+        },
+        {
+          "id": "c3_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "Faking gets caught. Curiosity gets rewarded. Admitting “I’m new to this” is a power move, not a weakness."
+            },
+            {
+              "id": "b",
+              "text": "Etiquette doesn’t matter if your work is strong."
+            },
+            {
+              "id": "c",
+              "text": "If you don’t know a term, change the subject quickly."
+            },
+            {
+              "id": "d",
+              "text": "“Tell me more about that” is the most powerful sentence in any affluent social setting."
+            }
+          ],
+          "answer": [
+            "a",
+            "d"
+          ],
+          "explanation": "Correct selections: Faking gets caught. Curiosity gets rewarded. Admitting “I’m new to this” is a power move, not a weakness. | “Tell me more about that” is the most powerful sentence in any affluent social setting."
+        },
+        {
+          "id": "c3_q4",
+          "type": "single",
+          "prompt": "At a dinner someone mentions an artist you’ve never heard of. What’s the best response?",
+          "options": [
+            {
+              "id": "a",
+              "text": "“Tell me more about that.”"
+            },
+            {
+              "id": "b",
+              "text": "“Yeah, I’ve followed their work for years.”"
+            },
+            {
+              "id": "c",
+              "text": "Change the subject immediately."
+            },
+            {
+              "id": "d",
+              "text": "Correct them to show you’re smart."
+            }
+          ],
+          "answer": "a",
+          "explanation": "“Tell me more about that.”"
+        },
+        {
+          "id": "c3_q5",
+          "type": "text",
+          "prompt": "Short answer: Choose one unfamiliar social situation in the next month—a wine dinner, a gallery opening, a golf outing. Go in armed only with these five phrases. You’ll leave knowing more than you expected, having made a stronger impression than the expert in the room, and with a story about how it went.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        },
+        {
+          "id": "c3_q6",
+          "type": "scale",
+          "prompt": "On a scale of 1–5, how likely are you to try the chapter’s suggested action in the next 7 days?",
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "labels": {
+              "1": "Unlikely",
+              "5": "Very likely"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "title": "The 20/80 Rule of Wine Knowledge",
+      "questionCount": 6,
+      "questions": [
+        {
+          "id": "c4_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **Terroir** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A method for learning by asking questions instead of pretending."
+            },
+            {
+              "id": "b",
+              "text": "The weight of wine in your mouth. Light (Pinot Grigio) vs. full (Cabernet). Think skim milk vs. whole milk."
+            },
+            {
+              "id": "c",
+              "text": "The French concept that wine's character comes from the specific place—soil, climate, altitude, tradition."
+            },
+            {
+              "id": "d",
+              "text": "The Language of Every Important Dinner"
+            }
+          ],
+          "answer": "c",
+          "explanation": "The French concept that wine's character comes from the specific place—soil, climate, altitude, tradition."
+        },
+        {
+          "id": "c4_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The best move is to imitate the spending of the wealthiest person present."
+            },
+            {
+              "id": "b",
+              "text": "Cultural fluency is judged only in formal performance reviews."
+            },
+            {
+              "id": "c",
+              "text": "It’s always correct to argue about the check in business settings."
+            },
+            {
+              "id": "d",
+              "text": "Six grapes cover 80%: Cab Sauv, Pinot Noir, Merlot, Chardonnay, Sauv Blanc, Riesling."
+            }
+          ],
+          "answer": "d",
+          "explanation": "Six grapes cover 80%: Cab Sauv, Pinot Noir, Merlot, Chardonnay, Sauv Blanc, Riesling."
+        },
+        {
+          "id": "c4_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "The goal is to sound impressive, not to learn."
+            },
+            {
+              "id": "b",
+              "text": "Twelve regions to know: Bordeaux, Burgundy, Napa, Champagne, Tuscany, Piedmont, Rioja, Willamette, Sonoma, Rhône, NZ, Argentina."
+            },
+            {
+              "id": "c",
+              "text": "Etiquette doesn’t matter if your work is strong."
+            },
+            {
+              "id": "d",
+              "text": "Best value on a wine list: $60–$120 range. Ask the sommelier."
+            }
+          ],
+          "answer": [
+            "b",
+            "d"
+          ],
+          "explanation": "Correct selections: Twelve regions to know: Bordeaux, Burgundy, Napa, Champagne, Tuscany, Piedmont, Rioja, Willamette, Sonoma, Rhône, NZ, Argentina. | Best value on a wine list: $60–$120 range. Ask the sommelier."
+        },
+        {
+          "id": "c4_q4",
+          "type": "single",
+          "prompt": "A sommelier asks what you’d like and you feel overwhelmed. What’s a confident move?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask for a recommendation around a price point and mention what the group is eating."
+            },
+            {
+              "id": "b",
+              "text": "Order the most expensive bottle without looking up."
+            },
+            {
+              "id": "c",
+              "text": "Sniff the cork dramatically before tasting."
+            },
+            {
+              "id": "d",
+              "text": "Send the wine back if you don’t like the style."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask for a recommendation around a price point and mention what the group is eating."
+        },
+        {
+          "id": "c4_q5",
+          "type": "text",
+          "prompt": "Short answer: This week, buy one bottle from three different regions. Taste them side by side. You’ll learn more in one evening of comparative tasting than in a month of reading.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        },
+        {
+          "id": "c4_q6",
+          "type": "scale",
+          "prompt": "On a scale of 1–5, how likely are you to try the chapter’s suggested action in the next 7 days?",
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "labels": {
+              "1": "Unlikely",
+              "5": "Very likely"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "title": "Spirits, Cocktails & the Bar Cart",
+      "questionCount": 6,
+      "questions": [
+        {
+          "id": "c5_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **What makes it bourbon** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Made in the U.S., 51%+ corn, aged in new charred oak barrels."
+            },
+            {
+              "id": "b",
+              "text": "The Macallan (the Bordeaux of scotch), Lagavulin (the thinking person's Islay), Glenmorangie (elegant, approachable), Oban (great middle ground)."
+            },
+            {
+              "id": "c",
+              "text": "A style that signals wealth without logos."
+            },
+            {
+              "id": "d",
+              "text": "Mentioning Japanese whisky signals sophistication beyond the Western spirits canon."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Made in the U.S., 51%+ corn, aged in new charred oak barrels."
+        },
+        {
+          "id": "c5_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Classic orders: Old Fashioned (power), Negroni (aesthetic), Martini (debate), Manhattan (sophistication)."
+            },
+            {
+              "id": "b",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            },
+            {
+              "id": "c",
+              "text": "It’s always correct to argue about the check in business settings."
+            },
+            {
+              "id": "d",
+              "text": "Cultural fluency is judged only in formal performance reviews."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Classic orders: Old Fashioned (power), Negroni (aesthetic), Martini (debate), Manhattan (sophistication)."
+        },
+        {
+          "id": "c5_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "The goal is to sound impressive, not to learn."
+            },
+            {
+              "id": "b",
+              "text": "Bourbon: Buffalo Trace (entry) → Blanton’s (mid) → Pappy Van Winkle (trophy)."
+            },
+            {
+              "id": "c",
+              "text": "Whiskey vs. whisky: “e” = American/Irish. No “e” = Scotch/Canadian/Japanese."
+            },
+            {
+              "id": "d",
+              "text": "Showing off brands and logos is the safest way to fit in."
+            }
+          ],
+          "answer": [
+            "b",
+            "c"
+          ],
+          "explanation": "Correct selections: Whiskey vs. whisky: “e” = American/Irish. No “e” = Scotch/Canadian/Japanese. | Bourbon: Buffalo Trace (entry) → Blanton’s (mid) → Pappy Van Winkle (trophy)."
+        },
+        {
+          "id": "c5_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c5_q5",
+          "type": "text",
+          "prompt": "Short answer: Pick one spirit category and explore it for a month. Buy three bottles across the spectrum (entry, mid, premium). Taste side by side. By month’s end, you’ll have genuine preferences and personal stories.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        },
+        {
+          "id": "c5_q6",
+          "type": "scale",
+          "prompt": "On a scale of 1–5, how likely are you to try the chapter’s suggested action in the next 7 days?",
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "labels": {
+              "1": "Unlikely",
+              "5": "Very likely"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "title": "When Someone Offers You One",
+      "questionCount": 5,
+      "questions": [
+        {
+          "id": "c6_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **Finishing** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Don't inhale. Draw into your mouth, appreciate, release. Puff every 30–60 seconds. Let the ash build—a long, firm ash signals quality. Let it fall naturally."
+            },
+            {
+              "id": "b",
+              "text": "A style that signals wealth without logos."
+            },
+            {
+              "id": "c",
+              "text": "Set it in the ashtray and let it go out. Don't crush or stub—that's cigarette behavior and poor form."
+            },
+            {
+              "id": "d",
+              "text": "Use a proper cutter. Cut just above the cap line. If unsure, watch your host first."
+            }
+          ],
+          "answer": "c",
+          "explanation": "Set it in the ashtray and let it go out. Don't crush or stub—that's cigarette behavior and poor form."
+        },
+        {
+          "id": "c6_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "It’s always correct to argue about the check in business settings."
+            },
+            {
+              "id": "b",
+              "text": "Don’t inhale. Don’t tap ash. Don’t stub. Let it die naturally."
+            },
+            {
+              "id": "c",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            },
+            {
+              "id": "d",
+              "text": "Cultural fluency is judged only in formal performance reviews."
+            }
+          ],
+          "answer": "b",
+          "explanation": "Don’t inhale. Don’t tap ash. Don’t stub. Let it die naturally."
+        },
+        {
+          "id": "c6_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "The goal is to sound impressive, not to learn."
+            },
+            {
+              "id": "b",
+              "text": "Always talk about price first to signal transparency."
+            },
+            {
+              "id": "c",
+              "text": "Decline gracefully or join the group. Always stay."
+            },
+            {
+              "id": "d",
+              "text": "Don’t inhale. Don’t tap ash. Don’t stub. Let it die naturally."
+            }
+          ],
+          "answer": [
+            "c",
+            "d"
+          ],
+          "explanation": "Correct selections: Decline gracefully or join the group. Always stay. | Don’t inhale. Don’t tap ash. Don’t stub. Let it die naturally."
+        },
+        {
+          "id": "c6_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c6_q5",
+          "type": "text",
+          "prompt": "Short answer: Visit a local cigar lounge once. Tell the staff you’re new. Buy a single mild cigar (Arturo Fuente Hemingway, $8–15). The experience is the education.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "title": "Fine Dining & Food Culture",
+      "questionCount": 6,
+      "questions": [
+        {
+          "id": "c7_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **Three stars** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Exceptional. Worth a special journey. ~140 worldwide. Dining here is an event."
+            },
+            {
+              "id": "b",
+              "text": "Very good. Worth a stop. Roughly 3,500 restaurants worldwide hold one star."
+            },
+            {
+              "id": "c",
+              "text": "A social norm for handling a check discreetly."
+            },
+            {
+              "id": "d",
+              "text": "A tier used to describe net worth and lifestyle differences."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Exceptional. Worth a special journey. ~140 worldwide. Dining here is an event."
+        },
+        {
+          "id": "c7_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The best move is to imitate the spending of the wealthiest person present."
+            },
+            {
+              "id": "b",
+              "text": "Cultural fluency is judged only in formal performance reviews."
+            },
+            {
+              "id": "c",
+              "text": "Michelin: 1=good, 2=excellent, 3=exceptional. Bib Gourmand = great value."
+            },
+            {
+              "id": "d",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            }
+          ],
+          "answer": "c",
+          "explanation": "Michelin: 1=good, 2=excellent, 3=exceptional. Bib Gourmand = great value."
+        },
+        {
+          "id": "c7_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "Tasting menu: 7–15 courses, 2.5–4 hours, $200–500+. Wine pairings are worth it."
+            },
+            {
+              "id": "b",
+              "text": "Always talk about price first to signal transparency."
+            },
+            {
+              "id": "c",
+              "text": "Etiquette doesn’t matter if your work is strong."
+            },
+            {
+              "id": "d",
+              "text": "Host pays. Quiet card before the meal. Tip 20–25%."
+            }
+          ],
+          "answer": [
+            "a",
+            "d"
+          ],
+          "explanation": "Correct selections: Host pays. Quiet card before the meal. Tip 20–25%. | Tasting menu: 7–15 courses, 2.5–4 hours, $200–500+. Wine pairings are worth it."
+        },
+        {
+          "id": "c7_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c7_q5",
+          "type": "text",
+          "prompt": "Short answer: Make a reservation at a well-reviewed restaurant with a tasting menu. Order it with wine pairings. Notice the pacing, the service, the way the sommelier interacts. One evening makes every future fine dining experience familiar.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        },
+        {
+          "id": "c7_q6",
+          "type": "scale",
+          "prompt": "On a scale of 1–5, how likely are you to try the chapter’s suggested action in the next 7 days?",
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "labels": {
+              "1": "Unlikely",
+              "5": "Very likely"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "title": "The Four Tiers of Automotive Culture",
+      "questionCount": 6,
+      "questions": [
+        {
+          "id": "c8_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **Cars** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "$50,000–$120,000 for sedans and SUVs. This tier is where most first-generation professionals start, and there's nothing wrong with that."
+            },
+            {
+              "id": "b",
+              "text": "A technique for ordering wine by choosing the cheapest bottle."
+            },
+            {
+              "id": "c",
+              "text": "More Than Transportation"
+            },
+            {
+              "id": "d",
+              "text": "Luxury — The Default Executive Fleet"
+            }
+          ],
+          "answer": "c",
+          "explanation": "More Than Transportation"
+        },
+        {
+          "id": "c8_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The best move is to imitate the spending of the wealthiest person present."
+            },
+            {
+              "id": "b",
+              "text": "Four tiers: Luxury (Mercedes/BMW/Audi/Lexus), Prestige (Porsche/Range Rover/Tesla), Exotic (Ferrari/Lambo/McLaren/Aston), Connoisseur (Rolls/Bentley/classics)."
+            },
+            {
+              "id": "c",
+              "text": "It’s always correct to argue about the check in business settings."
+            },
+            {
+              "id": "d",
+              "text": "Cultural fluency is judged only in formal performance reviews."
+            }
+          ],
+          "answer": "b",
+          "explanation": "Four tiers: Luxury (Mercedes/BMW/Audi/Lexus), Prestige (Porsche/Range Rover/Tesla), Exotic (Ferrari/Lambo/McLaren/Aston), Connoisseur (Rolls/Bentley/classics)."
+        },
+        {
+          "id": "c8_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "Best conversation move: “What made you choose that car?” unlocks genuine enthusiasm every time."
+            },
+            {
+              "id": "b",
+              "text": "The goal is to sound impressive, not to learn."
+            },
+            {
+              "id": "c",
+              "text": "If you don’t know a term, change the subject quickly."
+            },
+            {
+              "id": "d",
+              "text": "Four tiers: Luxury (Mercedes/BMW/Audi/Lexus), Prestige (Porsche/Range Rover/Tesla), Exotic (Ferrari/Lambo/McLaren/Aston), Connoisseur (Rolls/Bentley/classics)."
+            }
+          ],
+          "answer": [
+            "a",
+            "d"
+          ],
+          "explanation": "Correct selections: Four tiers: Luxury (Mercedes/BMW/Audi/Lexus), Prestige (Porsche/Range Rover/Tesla), Exotic (Ferrari/Lambo/McLaren/Aston), Connoisseur (Rolls/Bentley/classics). | Best conversation move: “What made you choose that car?” unlocks genuine enthusiasm every time."
+        },
+        {
+          "id": "c8_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c8_q5",
+          "type": "text",
+          "prompt": "Short answer: You don’t need to buy a new car. But the next time a colleague, client, or friend mentions theirs, use it as a conversation opener: “What do you love about it?” or “How did you choose that one?” You’ll learn something and strengthen the connection.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        },
+        {
+          "id": "c8_q6",
+          "type": "scale",
+          "prompt": "On a scale of 1–5, how likely are you to try the chapter’s suggested action in the next 7 days?",
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "labels": {
+              "1": "Unlikely",
+              "5": "Very likely"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "title": "The Holy Trinity",
+      "questionCount": 6,
+      "questions": [
+        {
+          "id": "c9_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **Manufacture** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A method for learning by asking questions instead of pretending."
+            },
+            {
+              "id": "b",
+              "text": "A social norm for handling a check discreetly."
+            },
+            {
+              "id": "c",
+              "text": "A technique for ordering wine by choosing the cheapest bottle."
+            },
+            {
+              "id": "d",
+              "text": "A watchmaker that produces its own movements in-house rather than using purchased movements. A mark of true craftsmanship."
+            }
+          ],
+          "answer": "d",
+          "explanation": "A watchmaker that produces its own movements in-house rather than using purchased movements. A mark of true craftsmanship."
+        },
+        {
+          "id": "c9_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "It’s always correct to argue about the check in business settings."
+            },
+            {
+              "id": "b",
+              "text": "The best move is to imitate the spending of the wealthiest person present."
+            },
+            {
+              "id": "c",
+              "text": "First watch: Omega or Tudor under $5K. Rolex or IWC at $5–15K. Patek or AP at $40K+."
+            },
+            {
+              "id": "d",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            }
+          ],
+          "answer": "c",
+          "explanation": "First watch: Omega or Tudor under $5K. Rolex or IWC at $5–15K. Patek or AP at $40K+."
+        },
+        {
+          "id": "c9_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "First watch: Omega or Tudor under $5K. Rolex or IWC at $5–15K. Patek or AP at $40K+."
+            },
+            {
+              "id": "b",
+              "text": "The goal is to sound impressive, not to learn."
+            },
+            {
+              "id": "c",
+              "text": "The Holy Trinity: Patek Philippe, Audemars Piguet, Vacheron Constantin. The top of watchmaking."
+            },
+            {
+              "id": "d",
+              "text": "If you don’t know a term, change the subject quickly."
+            }
+          ],
+          "answer": [
+            "a",
+            "c"
+          ],
+          "explanation": "Correct selections: First watch: Omega or Tudor under $5K. Rolex or IWC at $5–15K. Patek or AP at $40K+. | The Holy Trinity: Patek Philippe, Audemars Piguet, Vacheron Constantin. The top of watchmaking."
+        },
+        {
+          "id": "c9_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c9_q5",
+          "type": "text",
+          "prompt": "Short answer: Before buying anything, spend a month on watch forums (Reddit’s r/Watches, Hodinkee.com) and visit two or three authorized dealers. Try watches on your wrist. The education is free, and you’ll avoid the most common beginner mistake: buying a brand name instead of a watch you actually love.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        },
+        {
+          "id": "c9_q6",
+          "type": "scale",
+          "prompt": "On a scale of 1–5, how likely are you to try the chapter’s suggested action in the next 7 days?",
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "labels": {
+              "1": "Unlikely",
+              "5": "Very likely"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "title": "Fashion & Personal Style",
+      "questionCount": 5,
+      "questions": [
+        {
+          "id": "c10_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **Cocktail attire** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The affluent woman's wardrobe is built on a few exceptional pieces rather than many good ones. A quality blazer (The Row, Max Mara, Stella McCartney), a cashmere knit, a structured handbag, and well-made shoes create the foundation."
+            },
+            {
+              "id": "b",
+              "text": "Dark suit (no tux) for men. Knee-length or midi dress, dressy separates, or a sharp jumpsuit for women. This is the most common dress code at galas, receptions, and evening events."
+            },
+            {
+              "id": "c",
+              "text": "Women are often given less specific dress codes than men (“cocktail attire” means something very different from “black tie”, but both are vague). When in doubt, slightly overdressed is always better than slightly underdressed. And when the code says “casual,” it never means casual."
+            },
+            {
+              "id": "d",
+              "text": "The aesthetic philosophy that wealth is signaled through quality, fabric, and fit rather than logos or visible branding. Also called “stealth wealth.”"
+            }
+          ],
+          "answer": "b",
+          "explanation": "Dark suit (no tux) for men. Knee-length or midi dress, dressy separates, or a sharp jumpsuit for women. This is the most common dress code at galas, receptions, and evening events."
+        },
+        {
+          "id": "c10_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            },
+            {
+              "id": "b",
+              "text": "Cultural fluency is judged only in formal performance reviews."
+            },
+            {
+              "id": "c",
+              "text": "The best move is to imitate the spending of the wealthiest person present."
+            },
+            {
+              "id": "d",
+              "text": "Dress codes: black tie (tux), cocktail (dark suit), business casual (no jeans unless explicit), resort casual (think Hamptons, not couch)."
+            }
+          ],
+          "answer": "d",
+          "explanation": "Dress codes: black tie (tux), cocktail (dark suit), business casual (no jeans unless explicit), resort casual (think Hamptons, not couch)."
+        },
+        {
+          "id": "c10_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "Showing off brands and logos is the safest way to fit in."
+            },
+            {
+              "id": "b",
+              "text": "Women: invest in few exceptional pieces (blazer, bag, shoes) rather than many good ones."
+            },
+            {
+              "id": "c",
+              "text": "Men: navy suit, charcoal suit, brown shoes, white shirt = 95% of situations covered."
+            },
+            {
+              "id": "d",
+              "text": "If you don’t know a term, change the subject quickly."
+            }
+          ],
+          "answer": [
+            "b",
+            "c"
+          ],
+          "explanation": "Correct selections: Women: invest in few exceptional pieces (blazer, bag, shoes) rather than many good ones. | Men: navy suit, charcoal suit, brown shoes, white shirt = 95% of situations covered."
+        },
+        {
+          "id": "c10_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c10_q5",
+          "type": "text",
+          "prompt": "Short answer: Schedule a session with a personal stylist or a MTM suit consultation. One two-hour appointment will teach you more about fit, fabric, and proportion than a year of online shopping. Many department stores (Nordstrom, Neiman Marcus) offer this for free.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "title": "Introduction",
+      "questionCount": 6,
+      "questions": [
+        {
+          "id": "c11_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **Contemporary Art** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A tier used to describe net worth and lifestyle differences."
+            },
+            {
+              "id": "b",
+              "text": "A social norm for handling a check discreetly."
+            },
+            {
+              "id": "c",
+              "text": "A technique for ordering wine by choosing the cheapest bottle."
+            },
+            {
+              "id": "d",
+              "text": "The Names That Dominate the Conversation"
+            }
+          ],
+          "answer": "d",
+          "explanation": "The Names That Dominate the Conversation"
+        },
+        {
+          "id": "c11_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            },
+            {
+              "id": "b",
+              "text": "Cultural fluency is judged only in formal performance reviews."
+            },
+            {
+              "id": "c",
+              "text": "The best move is to imitate the spending of the wealthiest person present."
+            },
+            {
+              "id": "d",
+              "text": "Best gallery move: have your genuine reaction first, then read the wall text. Opinion > knowledge."
+            }
+          ],
+          "answer": "d",
+          "explanation": "Best gallery move: have your genuine reaction first, then read the wall text. Opinion > knowledge."
+        },
+        {
+          "id": "c11_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "If you don’t know a term, change the subject quickly."
+            },
+            {
+              "id": "b",
+              "text": "Auction houses: Christie’s (most prestigious), Sotheby’s (rival), Phillips (edgier, younger)."
+            },
+            {
+              "id": "c",
+              "text": "The goal is to sound impressive, not to learn."
+            },
+            {
+              "id": "d",
+              "text": "Art fairs: Art Basel (the biggest—Miami Beach in Dec), Frieze (edgier), Armory Show (NYC)."
+            }
+          ],
+          "answer": [
+            "b",
+            "d"
+          ],
+          "explanation": "Correct selections: Art fairs: Art Basel (the biggest—Miami Beach in Dec), Frieze (edgier), Armory Show (NYC). | Auction houses: Christie’s (most prestigious), Sotheby’s (rival), Phillips (edgier, younger)."
+        },
+        {
+          "id": "c11_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c11_q5",
+          "type": "text",
+          "prompt": "Short answer: This month, visit one gallery or museum exhibition. Don’t read the wall text first—walk through and notice what draws your eye. Then read the text. The practice of having a genuine response before learning the “correct” one is the fastest way to develop art confidence.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        },
+        {
+          "id": "c11_q6",
+          "type": "scale",
+          "prompt": "On a scale of 1–5, how likely are you to try the chapter’s suggested action in the next 7 days?",
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "labels": {
+              "1": "Unlikely",
+              "5": "Very likely"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "title": "The Hotel Hierarchy",
+      "questionCount": 6,
+      "questions": [
+        {
+          "id": "c12_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **This chapter gives you the map** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "the hotel hierarchy that determines where you stay, the destinations you should recognize by name, and the unspoken codes of how affluent people plan, experience, and talk about travel."
+            },
+            {
+              "id": "b",
+              "text": "Aspen (the social ski destination—as much about the scene as the slopes), St. Moritz (old European money), Courchevel (the luxury French Alps—where Russian oligarchs built chalets), Whistler (accessible luxury, increasingly popular), Niseko (Japan's powder paradise)."
+            },
+            {
+              "id": "c",
+              "text": "The Serengeti and Masai Mara (the classic safari—Tanzania and Kenya), the Okavango Delta (Botswana—the luxury safari connoisseur's choice), Cape Town (wine, food, mountains, and culture—South Africa's jewel), Rwanda (gorilla trekking—the most transformative travel experience many affluent travelers report)."
+            },
+            {
+              "id": "d",
+              "text": "Beyond the Resort"
+            }
+          ],
+          "answer": "a",
+          "explanation": "the hotel hierarchy that determines where you stay, the destinations you should recognize by name, and the unspoken codes of how affluent people plan, experience, and talk about travel."
+        },
+        {
+          "id": "c12_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            },
+            {
+              "id": "b",
+              "text": "It’s always correct to argue about the check in business settings."
+            },
+            {
+              "id": "c",
+              "text": "The best move is to imitate the spending of the wealthiest person present."
+            },
+            {
+              "id": "d",
+              "text": "The travel flex is in the details, not the destination. Specificity reveals real experience."
+            }
+          ],
+          "answer": "d",
+          "explanation": "The travel flex is in the details, not the destination. Specificity reveals real experience."
+        },
+        {
+          "id": "c12_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "Private aviation: charter (per-trip), fractional (NetJets), ownership. Know the terms."
+            },
+            {
+              "id": "b",
+              "text": "If you don’t know a term, change the subject quickly."
+            },
+            {
+              "id": "c",
+              "text": "Always talk about price first to signal transparency."
+            },
+            {
+              "id": "d",
+              "text": "Hotel hierarchy: Aman (apex), Four Seasons (gold standard), Belmond (iconic properties), Rosewood (rising rival)."
+            }
+          ],
+          "answer": [
+            "a",
+            "d"
+          ],
+          "explanation": "Correct selections: Private aviation: charter (per-trip), fractional (NetJets), ownership. Know the terms. | Hotel hierarchy: Aman (apex), Four Seasons (gold standard), Belmond (iconic properties), Rosewood (rising rival)."
+        },
+        {
+          "id": "c12_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c12_q5",
+          "type": "text",
+          "prompt": "Short answer: Pick three destinations from this list that genuinely interest you and learn them well—best hotels, best season to visit, one unique experience at each. Having three destinations you can discuss with specificity is more impressive than vague familiarity with twenty.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        },
+        {
+          "id": "c12_q6",
+          "type": "scale",
+          "prompt": "On a scale of 1–5, how likely are you to try the chapter’s suggested action in the next 7 days?",
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "labels": {
+              "1": "Unlikely",
+              "5": "Very likely"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "title": "Why Golf Matters in Business",
+      "questionCount": 6,
+      "questions": [
+        {
+          "id": "c13_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **Par** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Birdie (one under par), eagle (two under), bogey (one over), double bogey (two over). For a beginner, bogey golf is respectable. Don't worry about birdies."
+            },
+            {
+              "id": "b",
+              "text": "The Unspoken Rules"
+            },
+            {
+              "id": "c",
+              "text": "A method for learning by asking questions instead of pretending."
+            },
+            {
+              "id": "d",
+              "text": "The expected number of strokes to complete a hole. Par 3 (short), par 4 (medium), par 5 (long). A typical 18-hole course is par 70–72."
+            }
+          ],
+          "answer": "d",
+          "explanation": "The expected number of strokes to complete a hole. Par 3 (short), par 4 (medium), par 5 (long). A typical 18-hole course is par 70–72."
+        },
+        {
+          "id": "c13_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "It’s always correct to argue about the check in business settings."
+            },
+            {
+              "id": "b",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            },
+            {
+              "id": "c",
+              "text": "Cultural fluency is judged only in formal performance reviews."
+            },
+            {
+              "id": "d",
+              "text": "Golf creates 4–5 hours of uninterrupted relationship time. No other format does this."
+            }
+          ],
+          "answer": "d",
+          "explanation": "Golf creates 4–5 hours of uninterrupted relationship time. No other format does this."
+        },
+        {
+          "id": "c13_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "Showing off brands and logos is the safest way to fit in."
+            },
+            {
+              "id": "b",
+              "text": "Legendary courses: Augusta (the pinnacle), Pebble Beach (bucket list), St. Andrews (birthplace), Bandon Dunes (the modern pilgrimage)."
+            },
+            {
+              "id": "c",
+              "text": "Etiquette doesn’t matter if your work is strong."
+            },
+            {
+              "id": "d",
+              "text": "Nobody cares how well you play. They care about pace, etiquette, and company."
+            }
+          ],
+          "answer": [
+            "b",
+            "d"
+          ],
+          "explanation": "Correct selections: Legendary courses: Augusta (the pinnacle), Pebble Beach (bucket list), St. Andrews (birthplace), Bandon Dunes (the modern pilgrimage). | Nobody cares how well you play. They care about pace, etiquette, and company."
+        },
+        {
+          "id": "c13_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c13_q5",
+          "type": "text",
+          "prompt": "Short answer: Book one golf lesson this month. Just one. A single hour with a teaching pro will demystify the sport and give you enough to hit balls at a range. That’s all you need to start answering “Do you play?” with “I’m just getting into it.”",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        },
+        {
+          "id": "c13_q6",
+          "type": "scale",
+          "prompt": "On a scale of 1–5, how likely are you to try the chapter’s suggested action in the next 7 days?",
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "labels": {
+              "1": "Unlikely",
+              "5": "Very likely"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "title": "Tennis, Skiing & Country Club Sports",
+      "questionCount": 5,
+      "questions": [
+        {
+          "id": "c14_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **The Grand Slams** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "You can still go on a ski trip. Many people go for the town, the food, the spa, and the après-ski. Saying “I don't ski, but I love the mountains” is perfectly acceptable. Taking a beginner lesson on the trip is even better."
+            },
+            {
+              "id": "b",
+              "text": "The sport of kings, played on horseback with mallets. Watching a polo match—with the champagne, the divot stomping at halftime, and the social scene—is a quintessential affluent experience. The Veuve Clicquot Polo Classic in New York and the U.S. Open Polo Championship in Wellington, Florida are the events to know."
+            },
+            {
+              "id": "c",
+              "text": "The four major tournaments (Australian Open, French Open, Wimbledon, US Open) are cultural events as much as sporting ones. Attending the US Open or Wimbledon—especially in premium seating—is a social experience. Knowing the current top players, the rivalries, and the basics of the scoring system (love, 15, 30, 40, deuce, advantage) is sufficient for conversation."
+            },
+            {
+              "id": "d",
+              "text": "A method for learning by asking questions instead of pretending."
+            }
+          ],
+          "answer": "c",
+          "explanation": "The four major tournaments (Australian Open, French Open, Wimbledon, US Open) are cultural events as much as sporting ones. Attending the US Open or Wimbledon—especially in premium seating—is a social experience. Knowing the current top players, the rivalries, and the basics of the scoring system (love, 15, 30, 40, deuce, advantage) is sufficient for conversation."
+        },
+        {
+          "id": "c14_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Country club initiation: $5K–$500K+. Sponsorship by current members is required. Build relationships first."
+            },
+            {
+              "id": "b",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            },
+            {
+              "id": "c",
+              "text": "Cultural fluency is judged only in formal performance reviews."
+            },
+            {
+              "id": "d",
+              "text": "The best move is to imitate the spending of the wealthiest person present."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Country club initiation: $5K–$500K+. Sponsorship by current members is required. Build relationships first."
+        },
+        {
+          "id": "c14_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "Etiquette doesn’t matter if your work is strong."
+            },
+            {
+              "id": "b",
+              "text": "Paddle (padel) is the fastest-growing sport globally. Pickleball is the most accessible. Both are social goldmines."
+            },
+            {
+              "id": "c",
+              "text": "The sport is the excuse. The real connection happens in the locker room and the bar after."
+            },
+            {
+              "id": "d",
+              "text": "Always talk about price first to signal transparency."
+            }
+          ],
+          "answer": [
+            "b",
+            "c"
+          ],
+          "explanation": "Correct selections: The sport is the excuse. The real connection happens in the locker room and the bar after. | Paddle (padel) is the fastest-growing sport globally. Pickleball is the most accessible. Both are social goldmines."
+        },
+        {
+          "id": "c14_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c14_q5",
+          "type": "text",
+          "prompt": "Short answer: This season, try one new sport from this chapter. Take a tennis lesson, book a beginner ski day, or show up for a pickleball session at a local club. The barrier to entry is lower than you think, and the social returns compound immediately.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "title": "Boating & Yachting",
+      "questionCount": 5,
+      "questions": [
+        {
+          "id": "c15_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **The Vocabulary** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A technique for ordering wine by choosing the cheapest bottle."
+            },
+            {
+              "id": "b",
+              "text": "Ask before boarding whether shoes are worn on deck. On most boats, especially sailboats and yachts, shoes come off or you wear non-marking, soft-soled boat shoes. Bringing the wrong footwear is the #1 guest mistake."
+            },
+            {
+              "id": "c",
+              "text": "A tier used to describe net worth and lifestyle differences."
+            },
+            {
+              "id": "d",
+              "text": "Power vs. Sail"
+            }
+          ],
+          "answer": "d",
+          "explanation": "Power vs. Sail"
+        },
+        {
+          "id": "c15_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "It’s always correct to argue about the check in business settings."
+            },
+            {
+              "id": "b",
+              "text": "Ownership rule of thumb: annual cost ≈ 10% of purchase price. It adds up fast."
+            },
+            {
+              "id": "c",
+              "text": "The best move is to imitate the spending of the wealthiest person present."
+            },
+            {
+              "id": "d",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            }
+          ],
+          "answer": "b",
+          "explanation": "Ownership rule of thumb: annual cost ≈ 10% of purchase price. It adds up fast."
+        },
+        {
+          "id": "c15_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ownership rule of thumb: annual cost ≈ 10% of purchase price. It adds up fast."
+            },
+            {
+              "id": "b",
+              "text": "The golden rule of boat guesting: be easy. Don’t complain. Be present. Be helpful. Be grateful."
+            },
+            {
+              "id": "c",
+              "text": "The goal is to sound impressive, not to learn."
+            },
+            {
+              "id": "d",
+              "text": "If you don’t know a term, change the subject quickly."
+            }
+          ],
+          "answer": [
+            "a",
+            "b"
+          ],
+          "explanation": "Correct selections: Ownership rule of thumb: annual cost ≈ 10% of purchase price. It adds up fast. | The golden rule of boat guesting: be easy. Don’t complain. Be present. Be helpful. Be grateful."
+        },
+        {
+          "id": "c15_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c15_q5",
+          "type": "text",
+          "prompt": "Short answer: If boating is relevant to your social world, take a basic sailing or boating safety course. The U.S. Power Squadrons and American Sailing Association offer weekend courses for $200–400 that teach you terminology, safety, and basic skills—enough to be a competent crew member, not just a passenger.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "title": "The Affluent Fitness Landscape",
+      "questionCount": 6,
+      "questions": [
+        {
+          "id": "c16_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **Biohacking** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The practice of using science, technology, and self-experimentation to optimize biological function. Ranges from simple (cold exposure, fasting) to extreme (peptide injections, gene therapy)."
+            },
+            {
+              "id": "b",
+              "text": "A social norm for handling a check discreetly."
+            },
+            {
+              "id": "c",
+              "text": "Facilities like the Fountain Life Center, Human Longevity Inc., and Prenuvo (full-body MRI screening) offer comprehensive diagnostic packages for $5,000–25,000 that include advanced bloodwork, genetic testing, whole-body imaging, and personalized protocols. The ultra-wealthy spend $75,000–$150,000 annually on longevity programs."
+            },
+            {
+              "id": "d",
+              "text": "Full-body exposure to extreme cold (−200°F+) for 2–3 minutes in a cryo chamber. Used by professional athletes and increasingly by executives. $60–90 per session."
+            }
+          ],
+          "answer": "a",
+          "explanation": "The practice of using science, technology, and self-experimentation to optimize biological function. Ranges from simple (cold exposure, fasting) to extreme (peptide injections, gene therapy)."
+        },
+        {
+          "id": "c16_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "It’s always correct to argue about the check in business settings."
+            },
+            {
+              "id": "b",
+              "text": "Minimum effective dose: 3 sessions/week, 45–60 min each, combining strength + cardio."
+            },
+            {
+              "id": "c",
+              "text": "Cultural fluency is judged only in formal performance reviews."
+            },
+            {
+              "id": "d",
+              "text": "The best move is to imitate the spending of the wealthiest person present."
+            }
+          ],
+          "answer": "b",
+          "explanation": "Minimum effective dose: 3 sessions/week, 45–60 min each, combining strength + cardio."
+        },
+        {
+          "id": "c16_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "Etiquette doesn’t matter if your work is strong."
+            },
+            {
+              "id": "b",
+              "text": "Wearables: Oura (sleep/readiness), WHOOP (strain/recovery), CGM (glucose). Recognize them."
+            },
+            {
+              "id": "c",
+              "text": "If you don’t know a term, change the subject quickly."
+            },
+            {
+              "id": "d",
+              "text": "Recovery culture: cold plunge, infrared sauna, cryotherapy, HBOT. Know the vocabulary."
+            }
+          ],
+          "answer": [
+            "b",
+            "d"
+          ],
+          "explanation": "Correct selections: Recovery culture: cold plunge, infrared sauna, cryotherapy, HBOT. Know the vocabulary. | Wearables: Oura (sleep/readiness), WHOOP (strain/recovery), CGM (glucose). Recognize them."
+        },
+        {
+          "id": "c16_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c16_q5",
+          "type": "text",
+          "prompt": "Short answer: This week, schedule three 45-minute training sessions: one strength (push/pull/legs), one cardio (run, bike, swim, or row), and one mobility/recovery (yoga, stretching, or a sauna session). Do this for four weeks. That’s enough to build the habit and feel the difference.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        },
+        {
+          "id": "c16_q6",
+          "type": "scale",
+          "prompt": "On a scale of 1–5, how likely are you to try the chapter’s suggested action in the next 7 days?",
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "labels": {
+              "1": "Unlikely",
+              "5": "Very likely"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "title": "The Executive Mental Health Conversation",
+      "questionCount": 6,
+      "questions": [
+        {
+          "id": "c17_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **The ideal stack** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A style that signals wealth without logos."
+            },
+            {
+              "id": "b",
+              "text": "A medical doctor (MD or DO) who can diagnose mental health conditions and prescribe medication. Psychiatrists are essential for clinical conditions like depression, anxiety disorders, ADHD, and bipolar disorder. Many affluent professionals see a psychiatrist for medication management alongside a therapist for talk therapy."
+            },
+            {
+              "id": "c",
+              "text": "It's not just feeling like you don't belong in the meeting—it's feeling like you don't belong in the life. The house you live in, the schools your children attend, the vacations you take, the social circles you've entered. When nobody in your family has experienced this world, there's no template for how to feel about it."
+            },
+            {
+              "id": "d",
+              "text": "Many high-performing professionals maintain all three: a therapist for emotional processing, a coach for professional development, and a psychiatrist as needed for medication. This isn't excess—it's a team, just like having a personal trainer, a nutritionist, and a doctor for your body."
+            }
+          ],
+          "answer": "d",
+          "explanation": "Many high-performing professionals maintain all three: a therapist for emotional processing, a coach for professional development, and a psychiatrist as needed for medication. This isn't excess—it's a team, just like having a personal trainer, a nutritionist, and a doctor for your body."
+        },
+        {
+          "id": "c17_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            },
+            {
+              "id": "b",
+              "text": "Cultural fluency is judged only in formal performance reviews."
+            },
+            {
+              "id": "c",
+              "text": "It’s always correct to argue about the check in business settings."
+            },
+            {
+              "id": "d",
+              "text": "Know the differences: therapy (emotional processing), coaching (performance optimization), psychiatry (medical/medication)."
+            }
+          ],
+          "answer": "d",
+          "explanation": "Know the differences: therapy (emotional processing), coaching (performance optimization), psychiatry (medical/medication)."
+        },
+        {
+          "id": "c17_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "Herjavec’s lesson: success doesn’t cure unhappiness. Joy comes from purpose and connection, not the scoreboard."
+            },
+            {
+              "id": "b",
+              "text": "Meditation spectrum: apps (entry), TM ($1K course, big in finance), Vipassana (10-day silence, transformative)."
+            },
+            {
+              "id": "c",
+              "text": "Etiquette doesn’t matter if your work is strong."
+            },
+            {
+              "id": "d",
+              "text": "If you don’t know a term, change the subject quickly."
+            }
+          ],
+          "answer": [
+            "a",
+            "b"
+          ],
+          "explanation": "Correct selections: Herjavec’s lesson: success doesn’t cure unhappiness. Joy comes from purpose and connection, not the scoreboard. | Meditation spectrum: apps (entry), TM ($1K course, big in finance), Vipassana (10-day silence, transformative)."
+        },
+        {
+          "id": "c17_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c17_q5",
+          "type": "text",
+          "prompt": "Short answer: If you don’t have a therapist, book a consultation this week. It’s a phone call. It costs nothing. Treat it like your first golf lesson—an investment in a skill that will pay dividends for the rest of your career and life.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        },
+        {
+          "id": "c17_q6",
+          "type": "scale",
+          "prompt": "On a scale of 1–5, how likely are you to try the chapter’s suggested action in the next 7 days?",
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "labels": {
+              "1": "Unlikely",
+              "5": "Very likely"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "title": "Why Spiritual Grounding Matters More as Your Circles Expand",
+      "questionCount": 5,
+      "questions": [
+        {
+          "id": "c18_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **Weekly community** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Whether it's church, mosque, synagogue, temple, or a meditation group—protect one gathering per week. The community aspect of spiritual life is irreplaceable. It's where you're known, where you serve, where your success doesn't matter as much as your presence."
+            },
+            {
+              "id": "b",
+              "text": "A retreat, a pilgrimage, a mission trip. One extended period per year where you step out of your professional identity entirely and engage with your spiritual life at depth. The Camino de Santiago, a monastic retreat, a Hajj, a Vipassana, a church mission trip to serve communities in need—these experiences recalibrate your internal compass in ways that daily practice cannot."
+            },
+            {
+              "id": "c",
+              "text": "A method for learning by asking questions instead of pretending."
+            },
+            {
+              "id": "d",
+              "text": "Nourishing the Soul That Sustains You"
+            }
+          ],
+          "answer": "a",
+          "explanation": "Whether it's church, mosque, synagogue, temple, or a meditation group—protect one gathering per week. The community aspect of spiritual life is irreplaceable. It's where you're known, where you serve, where your success doesn't matter as much as your presence."
+        },
+        {
+          "id": "c18_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The best move is to imitate the spending of the wealthiest person present."
+            },
+            {
+              "id": "b",
+              "text": "Spiritual fitness is the third pillar. Achievement without meaning eventually collapses."
+            },
+            {
+              "id": "c",
+              "text": "Cultural fluency is judged only in formal performance reviews."
+            },
+            {
+              "id": "d",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            }
+          ],
+          "answer": "b",
+          "explanation": "Spiritual fitness is the third pillar. Achievement without meaning eventually collapses."
+        },
+        {
+          "id": "c18_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "The goal is to sound impressive, not to learn."
+            },
+            {
+              "id": "b",
+              "text": "Daily anchors (5-min prayer, devotional, gratitude) keep the door open. Protect weekly community."
+            },
+            {
+              "id": "c",
+              "text": "Showing off brands and logos is the safest way to fit in."
+            },
+            {
+              "id": "d",
+              "text": "Raise children with spiritual roots. They’ll remember what you practiced, not what you preached."
+            }
+          ],
+          "answer": [
+            "b",
+            "d"
+          ],
+          "explanation": "Correct selections: Daily anchors (5-min prayer, devotional, gratitude) keep the door open. Protect weekly community. | Raise children with spiritual roots. They’ll remember what you practiced, not what you preached."
+        },
+        {
+          "id": "c18_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c18_q5",
+          "type": "text",
+          "prompt": "Short answer: If your spiritual practice has lapsed, don’t try to overhaul everything. Start with one daily anchor—a morning prayer, a devotional, a gratitude list—and one weekly community gathering. Consistency matters more than intensity. The door opens from there.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "title": "The Wellness Vocabulary",
+      "questionCount": 6,
+      "questions": [
+        {
+          "id": "c19_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **Adaptogens** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A style that signals wealth without logos."
+            },
+            {
+              "id": "b",
+              "text": "Natural substances (ashwagandha, reishi, lion's mane) claimed to help the body adapt to stress. Found in every smoothie shop and wellness brand. The science is mixed, but the vocabulary is everywhere."
+            },
+            {
+              "id": "c",
+              "text": "Bioactive amino acid chains used for recovery, anti-aging, fat loss, and performance. BPC-157 (gut healing) and GHK-Cu (skin and tissue repair) are the names you'll hear. This occupies a gray zone between mainstream medicine and biohacking."
+            },
+            {
+              "id": "d",
+              "text": "A membership-based healthcare model where you pay an annual fee ($2,000–25,000) for enhanced access to your doctor: same-day appointments, longer visits, direct phone/text access. The affluent standard of primary care."
+            }
+          ],
+          "answer": "b",
+          "explanation": "Natural substances (ashwagandha, reishi, lion's mane) claimed to help the body adapt to stress. Found in every smoothie shop and wellness brand. The science is mixed, but the vocabulary is everywhere."
+        },
+        {
+          "id": "c19_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The best move is to imitate the spending of the wealthiest person present."
+            },
+            {
+              "id": "b",
+              "text": "Talk about faith authentically without evangelizing. “We went to church” is informational, not promotional."
+            },
+            {
+              "id": "c",
+              "text": "It’s always correct to argue about the check in business settings."
+            },
+            {
+              "id": "d",
+              "text": "Cultural fluency is judged only in formal performance reviews."
+            }
+          ],
+          "answer": "b",
+          "explanation": "Talk about faith authentically without evangelizing. “We went to church” is informational, not promotional."
+        },
+        {
+          "id": "c19_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "Talk about faith authentically without evangelizing. “We went to church” is informational, not promotional."
+            },
+            {
+              "id": "b",
+              "text": "The goal is to sound impressive, not to learn."
+            },
+            {
+              "id": "c",
+              "text": "The wellness-industrial complex is $1.8T. Discernment is essential. Foundations first: sleep, exercise, nutrition, stress management."
+            },
+            {
+              "id": "d",
+              "text": "Always talk about price first to signal transparency."
+            }
+          ],
+          "answer": [
+            "a",
+            "c"
+          ],
+          "explanation": "Correct selections: Talk about faith authentically without evangelizing. “We went to church” is informational, not promotional. | The wellness-industrial complex is $1.8T. Discernment is essential. Foundations first: sleep, exercise, nutrition, stress management."
+        },
+        {
+          "id": "c19_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c19_q5",
+          "type": "text",
+          "prompt": "Short answer: The next time wellness comes up in conversation, engage from your genuine experience. If you’ve started a cold plunge practice, share what it’s like. If you’ve found a great therapist, mention it naturally. If your faith practice is meaningful, let that show. Authenticity in wellness conversations is as powerful as it is in every other domain of this book.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        },
+        {
+          "id": "c19_q6",
+          "type": "scale",
+          "prompt": "On a scale of 1–5, how likely are you to try the chapter’s suggested action in the next 7 days?",
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "labels": {
+              "1": "Unlikely",
+              "5": "Very likely"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "title": "How Portfolios Are Structured",
+      "questionCount": 5,
+      "questions": [
+        {
+          "id": "c20_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **Investment properties** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Where you live. For most first-generation professionals, this is the single largest financial decision. In major markets (Manhattan, San Francisco, Los Angeles, Miami, Chicago), the entry point for a “nice” home ranges from $1.5M to $5M+."
+            },
+            {
+              "id": "b",
+              "text": "Rental units, commercial properties, or development deals. When someone mentions their “portfolio,” they often mean real estate alongside or instead of stocks."
+            },
+            {
+              "id": "c",
+              "text": "A style that signals wealth without logos."
+            },
+            {
+              "id": "d",
+              "text": "A tax strategy that allows investors to defer capital gains taxes by reinvesting the proceeds from a property sale into a “like-kind” property. The most commonly discussed tax tool in real estate conversation."
+            }
+          ],
+          "answer": "b",
+          "explanation": "Rental units, commercial properties, or development deals. When someone mentions their “portfolio,” they often mean real estate alongside or instead of stocks."
+        },
+        {
+          "id": "c20_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Real estate is the universal wealth conversation. Everyone has an opinion and a stake."
+            },
+            {
+              "id": "b",
+              "text": "The best move is to imitate the spending of the wealthiest person present."
+            },
+            {
+              "id": "c",
+              "text": "It’s always correct to argue about the check in business settings."
+            },
+            {
+              "id": "d",
+              "text": "Cultural fluency is judged only in formal performance reviews."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Real estate is the universal wealth conversation. Everyone has an opinion and a stake."
+        },
+        {
+          "id": "c20_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "The goal is to sound impressive, not to learn."
+            },
+            {
+              "id": "b",
+              "text": "Luxury markets: Manhattan (co-op vs. condo), Miami (no state tax), Aspen (lifestyle apex), Hamptons (summer colony)."
+            },
+            {
+              "id": "c",
+              "text": "Key terms: cap rate, 1031 exchange. They come up in every investment real estate discussion."
+            },
+            {
+              "id": "d",
+              "text": "If you don’t know a term, change the subject quickly."
+            }
+          ],
+          "answer": [
+            "b",
+            "c"
+          ],
+          "explanation": "Correct selections: Key terms: cap rate, 1031 exchange. They come up in every investment real estate discussion. | Luxury markets: Manhattan (co-op vs. condo), Miami (no state tax), Aspen (lifestyle apex), Hamptons (summer colony)."
+        },
+        {
+          "id": "c20_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c20_q5",
+          "type": "text",
+          "prompt": "Short answer: Before your next real estate conversation, learn the two or three key metrics of your own local market: median price, price per square foot, and which neighborhoods are appreciating. Being able to speak specifically about your own market is more impressive than knowing national trends.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "title": "Investing & Financial Literacy Beyond Your 401(k)",
+      "questionCount": 5,
+      "questions": [
+        {
+          "id": "c21_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **Alternative Investments** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Investment funds that acquire, restructure, and sell companies. Characterized by long lock-up periods, high minimums, and illiquidity. Returns are measured in IRR (internal rate of return)."
+            },
+            {
+              "id": "b",
+              "text": "A method for learning by asking questions instead of pretending."
+            },
+            {
+              "id": "c",
+              "text": "Special Purpose Vehicle. A legal entity created for a single investment. The mechanism through which most angel investment syndicates operate."
+            },
+            {
+              "id": "d",
+              "text": "The Dinner Party Vocabulary"
+            }
+          ],
+          "answer": "d",
+          "explanation": "The Dinner Party Vocabulary"
+        },
+        {
+          "id": "c21_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Family offices manage $6T+ globally. If you serve affluent clients, understand what they are."
+            },
+            {
+              "id": "b",
+              "text": "It’s always correct to argue about the check in business settings."
+            },
+            {
+              "id": "c",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            },
+            {
+              "id": "d",
+              "text": "The best move is to imitate the spending of the wealthiest person present."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Family offices manage $6T+ globally. If you serve affluent clients, understand what they are."
+        },
+        {
+          "id": "c21_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "Etiquette doesn’t matter if your work is strong."
+            },
+            {
+              "id": "b",
+              "text": "Wealth advisor hierarchy: fee-only fiduciary (gold standard) > RIA (independent) > wirehouse (full-service, potential conflicts)."
+            },
+            {
+              "id": "c",
+              "text": "Always talk about price first to signal transparency."
+            },
+            {
+              "id": "d",
+              "text": "Family offices manage $6T+ globally. If you serve affluent clients, understand what they are."
+            }
+          ],
+          "answer": [
+            "b",
+            "d"
+          ],
+          "explanation": "Correct selections: Wealth advisor hierarchy: fee-only fiduciary (gold standard) > RIA (independent) > wirehouse (full-service, potential conflicts). | Family offices manage $6T+ globally. If you serve affluent clients, understand what they are."
+        },
+        {
+          "id": "c21_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c21_q5",
+          "type": "text",
+          "prompt": "Short answer: If you don’t have a wealth advisor, ask three trusted colleagues who they use and why. Schedule consultations with two or three. The relationship matters as much as the credentials—you need someone who understands your goals, your risk tolerance, and your life stage.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "title": "Philanthropy & Giving",
+      "questionCount": 5,
+      "questions": [
+        {
+          "id": "c22_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **Private foundation** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The most common philanthropic interaction you'll encounter is a friend or colleague asking you to support their cause—buy a table, sponsor a walk, donate to their campaign. Say yes when you can. The reciprocity is social: when it's your turn to fundraise, you'll need their support."
+            },
+            {
+              "id": "b",
+              "text": "A tier used to describe net worth and lifestyle differences."
+            },
+            {
+              "id": "c",
+              "text": "A style that signals wealth without logos."
+            },
+            {
+              "id": "d",
+              "text": "A more complex entity typically used by families with $5M+ to donate. A private foundation gives you more control (you can hire staff, run programs, make investments) but requires 5% annual distributions and significant administrative overhead. When someone says they have a “family foundation,” this is what they mean."
+            }
+          ],
+          "answer": "d",
+          "explanation": "A more complex entity typically used by families with $5M+ to donate. A private foundation gives you more control (you can hire staff, run programs, make investments) but requires 5% annual distributions and significant administrative overhead. When someone says they have a “family foundation,” this is what they mean."
+        },
+        {
+          "id": "c22_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Effective giving (GiveWell, MacKenzie Scott model) is gaining influence over performative giving."
+            },
+            {
+              "id": "b",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            },
+            {
+              "id": "c",
+              "text": "It’s always correct to argue about the check in business settings."
+            },
+            {
+              "id": "d",
+              "text": "Cultural fluency is judged only in formal performance reviews."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Effective giving (GiveWell, MacKenzie Scott model) is gaining influence over performative giving."
+        },
+        {
+          "id": "c22_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "If you don’t know a term, change the subject quickly."
+            },
+            {
+              "id": "b",
+              "text": "Etiquette doesn’t matter if your work is strong."
+            },
+            {
+              "id": "c",
+              "text": "Philanthropy defines identity in affluent circles as much as earning does."
+            },
+            {
+              "id": "d",
+              "text": "Board service: the most powerful philanthropic commitment. Expect “give or get” minimums."
+            }
+          ],
+          "answer": [
+            "c",
+            "d"
+          ],
+          "explanation": "Correct selections: Board service: the most powerful philanthropic commitment. Expect “give or get” minimums. | Philanthropy defines identity in affluent circles as much as earning does."
+        },
+        {
+          "id": "c22_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c22_q5",
+          "type": "text",
+          "prompt": "Short answer: Open a Donor-Advised Fund with $5,000. It takes 15 minutes online. You get an immediate tax deduction and can distribute to charities at your own pace. This single move makes you a “philanthropist” in the structural sense and gives you a vehicle to respond to every charitable ask with genuine generosity.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 23,
+      "title": "Private Clubs & Membership Culture",
+      "questionCount": 6,
+      "questions": [
+        {
+          "id": "c23_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **The Landscape** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Types of Clubs"
+            },
+            {
+              "id": "b",
+              "text": "A tier used to describe net worth and lifestyle differences."
+            },
+            {
+              "id": "c",
+              "text": "The Metropolitan Club (NYC), The Union League (Philadelphia, Chicago), University clubs affiliated with Ivy League schools. These carry historical prestige and more formal cultures. Membership often requires legacy connections or significant professional standing."
+            },
+            {
+              "id": "d",
+              "text": "A technique for ordering wine by choosing the cheapest bottle."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Types of Clubs"
+        },
+        {
+          "id": "c23_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            },
+            {
+              "id": "b",
+              "text": "The best move is to imitate the spending of the wealthiest person present."
+            },
+            {
+              "id": "c",
+              "text": "Sponsorship by existing members is required at most clubs. Your network is your key."
+            },
+            {
+              "id": "d",
+              "text": "It’s always correct to argue about the check in business settings."
+            }
+          ],
+          "answer": "c",
+          "explanation": "Sponsorship by existing members is required at most clubs. Your network is your key."
+        },
+        {
+          "id": "c23_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "If you don’t know a term, change the subject quickly."
+            },
+            {
+              "id": "b",
+              "text": "The value is repeated proximity: seeing the same people weekly builds trust faster than any other format."
+            },
+            {
+              "id": "c",
+              "text": "Full cost = initiation + annual dues + minimum spending. Know the number before applying."
+            },
+            {
+              "id": "d",
+              "text": "Always talk about price first to signal transparency."
+            }
+          ],
+          "answer": [
+            "b",
+            "c"
+          ],
+          "explanation": "Correct selections: The value is repeated proximity: seeing the same people weekly builds trust faster than any other format. | Full cost = initiation + annual dues + minimum spending. Know the number before applying."
+        },
+        {
+          "id": "c23_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c23_q5",
+          "type": "text",
+          "prompt": "Short answer: Identify the one or two clubs in your city that align with your professional world and lifestyle. Research the membership process. If you know a current member, take them to lunch and ask about their experience before pursuing the application.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        },
+        {
+          "id": "c23_q6",
+          "type": "scale",
+          "prompt": "On a scale of 1–5, how likely are you to try the chapter’s suggested action in the next 7 days?",
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "labels": {
+              "1": "Unlikely",
+              "5": "Very likely"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 24,
+      "title": "The Power of Your Network",
+      "questionCount": 6,
+      "questions": [
+        {
+          "id": "c24_q1",
+          "type": "single",
+          "prompt": "According to the chapter, what is your **true network**?",
+          "options": [
+            { "id": "a", "text": "Your LinkedIn connections and social media followers." },
+            { "id": "b", "text": "The people who attend the same conferences as you." },
+            { "id": "c", "text": "A list of business cards and professional contacts." },
+            { "id": "d", "text": "The group of people who trust you enough to take your call and respond when it matters." }
+          ],
+          "answer": "d",
+          "explanation": "Your real network is the living web of people who trust you and would respond when it matters—not simply contacts or followers."
+        },
+        {
+          "id": "c24_q2",
+          "type": "single",
+          "prompt": "What is described as the **most valuable asset** for a first-generation professional?",
+          "options": [
+            { "id": "a", "text": "Your professional degree." },
+            { "id": "b", "text": "Your reputation." },
+            { "id": "c", "text": "Your financial success." },
+            { "id": "d", "text": "Your job title." }
+          ],
+          "answer": "b",
+          "explanation": "The chapter emphasizes that reputation is the most valuable asset because it determines access to opportunities and relationships."
+        },
+        {
+          "id": "c24_q3",
+          "type": "multi",
+          "prompt": "Select **two** behaviors that build social capital according to the chapter.",
+          "options": [
+            { "id": "a", "text": "Sending thoughtful messages or notes when someone achieves something." },
+            { "id": "b", "text": "Only reaching out when you need a favor." },
+            { "id": "c", "text": "Making introductions between people who should know each other." },
+            { "id": "d", "text": "Keeping score of every favor you give." }
+          ],
+          "answer": ["a", "c"],
+          "explanation": "Social capital grows through small gestures of generosity—checking in, celebrating others, and connecting people without expecting something in return."
+        },
+        {
+          "id": "c24_q4",
+          "type": "single",
+          "prompt": "Why does **kindness compound** in professional networks?",
+          "options": [
+            { "id": "a", "text": "Because it makes people appear more impressive." },
+            { "id": "b", "text": "Because it builds trust, which leads to opportunities and support." },
+            { "id": "c", "text": "Because it guarantees immediate rewards." },
+            { "id": "d", "text": "Because it increases social media visibility." }
+          ],
+          "answer": "b",
+          "explanation": "Kindness builds trust, and trust leads people to share opportunities, information, and defend your reputation."
+        },
+        {
+          "id": "c24_q5",
+          "type": "text",
+          "prompt": "Short answer: Think of three people in your network you haven’t spoken with recently. What small gesture could you make this week to reconnect with them?",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        },
+        {
+          "id": "c24_q6",
+          "type": "scale",
+          "prompt": "How likely are you to call someone in your network just to check in this week?",
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "labels": {
+              "1": "Very unlikely",
+              "5": "Very likely"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 25,
+      "title": "The Grace of Good Manners",
+      "questionCount": 6,
+      "questions": [
+        {
+          "id": "c25_q1",
+          "type": "single",
+          "prompt": "According to the chapter, what separates people who are welcomed everywhere from those who are only tolerated?",
+          "options": [
+            { "id": "a", "text": "Their professional achievements." },
+            { "id": "b", "text": "Their wealth." },
+            { "id": "c", "text": "Their manners and courtesy." },
+            { "id": "d", "text": "Their fashion and lifestyle." }
+          ],
+          "answer": "c",
+          "explanation": "The chapter emphasizes that manners and genuine courtesy determine whether someone truly belongs in a room."
+        },
+        {
+          "id": "c25_q2",
+          "type": "single",
+          "prompt": "What does the chapter describe as the **nuevo riche problem**?",
+          "options": [
+            { "id": "a", "text": "People hiding their wealth." },
+            { "id": "b", "text": "People showing wealth but lacking manners." },
+            { "id": "c", "text": "People investing too aggressively." },
+            { "id": "d", "text": "People refusing invitations to events." }
+          ],
+          "answer": "b",
+          "explanation": "The nuevo riche problem occurs when someone gains wealth but behaves arrogantly or disrespectfully."
+        },
+        {
+          "id": "c25_q3",
+          "type": "multi",
+          "prompt": "Select **two** behaviors that signal arrogance in conversation.",
+          "options": [
+            { "id": "a", "text": "Interrupting people mid-sentence." },
+            { "id": "b", "text": "Listening carefully before responding." },
+            { "id": "c", "text": "One-upping someone’s story." },
+            { "id": "d", "text": "Asking thoughtful questions." }
+          ],
+          "answer": ["a", "c"],
+          "explanation": "Interrupting and one-upping signal arrogance and alienate people in the room."
+        },
+        {
+          "id": "c25_q4",
+          "type": "single",
+          "prompt": "When someone tries to provoke you in a conversation, what response does the chapter recommend?",
+          "options": [
+            { "id": "a", "text": "Respond with equal aggression." },
+            { "id": "b", "text": "Ignore them completely." },
+            { "id": "c", "text": "Respond calmly and change the subject." },
+            { "id": "d", "text": "Correct them publicly." }
+          ],
+          "answer": "c",
+          "explanation": "The chapter suggests calm composure and refusing to escalate conflict."
+        },
+        {
+          "id": "c25_q5",
+          "type": "text",
+          "prompt": "Short answer: Describe a situation where reacting calmly instead of emotionally could improve a professional or social interaction.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        },
+        {
+          "id": "c25_q6",
+          "type": "scale",
+          "prompt": "On a scale of 1–5, how likely are you to consciously pause before responding when frustrated?",
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "labels": {
+              "1": "Very unlikely",
+              "5": "Very likely"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 26,
+      "title": "Entertaining, Hosting & Social Intelligence",
+      "questionCount": 5,
+      "questions": [
+        {
+          "id": "c24_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **What to wear** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A handwritten thank-you note is the most underutilized power tool in professional life. It costs $2 and creates more goodwill than a $200 gift. Send it within 48 hours."
+            },
+            {
+              "id": "b",
+              "text": "The invitation will specify (see Chapter 10 dress codes). When in doubt, overdress slightly."
+            },
+            {
+              "id": "c",
+              "text": "A technique for ordering wine by choosing the cheapest bottle."
+            },
+            {
+              "id": "d",
+              "text": "Open something good—this is not the time for the cheapest bottle on the shelf. Two to three bottles for six guests is standard. Having a specific story about the wine (“We picked this up in Napa last fall”) elevates the experience."
+            }
+          ],
+          "answer": "b",
+          "explanation": "The invitation will specify (see Chapter 10 dress codes). When in doubt, overdress slightly."
+        },
+        {
+          "id": "c24_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The best move is to imitate the spending of the wealthiest person present."
+            },
+            {
+              "id": "b",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            },
+            {
+              "id": "c",
+              "text": "It’s always correct to argue about the check in business settings."
+            },
+            {
+              "id": "d",
+              "text": "The handwritten thank-you note is the most underutilized power tool. Send within 48 hours. Keep quality cards."
+            }
+          ],
+          "answer": "d",
+          "explanation": "The handwritten thank-you note is the most underutilized power tool. Send within 48 hours. Keep quality cards."
+        },
+        {
+          "id": "c24_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "The handwritten thank-you note is the most underutilized power tool. Send within 48 hours. Keep quality cards."
+            },
+            {
+              "id": "b",
+              "text": "Gift code: wine or flowers for dinner, champagne or candle for a weekend stay, handwritten note for business."
+            },
+            {
+              "id": "c",
+              "text": "If you don’t know a term, change the subject quickly."
+            },
+            {
+              "id": "d",
+              "text": "Etiquette doesn’t matter if your work is strong."
+            }
+          ],
+          "answer": [
+            "a",
+            "b"
+          ],
+          "explanation": "Correct selections: The handwritten thank-you note is the most underutilized power tool. Send within 48 hours. Keep quality cards. | Gift code: wine or flowers for dinner, champagne or candle for a weekend stay, handwritten note for business."
+        },
+        {
+          "id": "c24_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c24_q5",
+          "type": "text",
+          "prompt": "Short answer: Host a dinner party in the next 60 days. Start small: 6 people, a simple menu, a good bottle of wine, and a set table. The first one is the hardest. By the third, you’ll have a reputation as someone who brings people together—and that reputation compounds.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 27,
+      "title": "The Conversational Toolkit",
+      "questionCount": 6,
+      "questions": [
+        {
+          "id": "c25_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **Books that come up** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Asking someone directly what they earn, what they paid for something, or what their net worth is remains deeply taboo. Even close friends rarely have this conversation. The exception: real estate purchase prices, which are public record and therefore fair game."
+            },
+            {
+              "id": "b",
+              "text": "Not stock tips—macro themes. “How are you thinking about interest rates?” “What are you seeing in your industry?” Having one or two informed opinions about the current economic moment (read one article per week from the Financial Times or Bloomberg) is sufficient."
+            },
+            {
+              "id": "c",
+              "text": "Divisive politics (unless you know the room), religion in a preachy mode (Chapter 19 covers the nuanced approach), gossip about mutual acquaintances, complaints about wealth (“taxes are killing me” reads poorly), and conspicuous humblebrags."
+            },
+            {
+              "id": "d",
+              "text": "The Psychology of Money (Morgan Housel), Sapiens (Yuval Harari), Thinking, Fast and Slow (Daniel Kahneman), Shoe Dog (Phil Knight), Atomic Habits (James Clear). These circulate through affluent professional culture like currency."
+            }
+          ],
+          "answer": "d",
+          "explanation": "The Psychology of Money (Morgan Housel), Sapiens (Yuval Harari), Thinking, Fast and Slow (Daniel Kahneman), Shoe Dog (Phil Knight), Atomic Habits (James Clear). These circulate through affluent professional culture like currency."
+        },
+        {
+          "id": "c25_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Cultural fluency is judged only in formal performance reviews."
+            },
+            {
+              "id": "b",
+              "text": "The best move is to imitate the spending of the wealthiest person present."
+            },
+            {
+              "id": "c",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            },
+            {
+              "id": "d",
+              "text": "Money is discussed constantly through proxies (real estate, experiences, career). Never ask directly about income or net worth."
+            }
+          ],
+          "answer": "d",
+          "explanation": "Money is discussed constantly through proxies (real estate, experiences, career). Never ask directly about income or net worth."
+        },
+        {
+          "id": "c25_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "Publications: FT, Bloomberg, Economist. Podcasts: Prof G, How I Built This, All-In. Books: Psychology of Money, Sapiens."
+            },
+            {
+              "id": "b",
+              "text": "If you don’t know a term, change the subject quickly."
+            },
+            {
+              "id": "c",
+              "text": "Always talk about price first to signal transparency."
+            },
+            {
+              "id": "d",
+              "text": "Rotating topics: markets, real estate, travel, schools, wellness, food/wine. Prepare for the rotation."
+            }
+          ],
+          "answer": [
+            "a",
+            "d"
+          ],
+          "explanation": "Correct selections: Publications: FT, Bloomberg, Economist. Podcasts: Prof G, How I Built This, All-In. Books: Psychology of Money, Sapiens. | Rotating topics: markets, real estate, travel, schools, wellness, food/wine. Prepare for the rotation."
+        },
+        {
+          "id": "c25_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c25_q5",
+          "type": "text",
+          "prompt": "Short answer: This week, read one article from the Financial Times or Bloomberg each morning over coffee. In 30 days, you’ll have enough macro awareness to hold your own in any markets-and-economy conversation—which is the single most common topic at affluent gatherings.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        },
+        {
+          "id": "c25_q6",
+          "type": "scale",
+          "prompt": "On a scale of 1–5, how likely are you to try the chapter’s suggested action in the next 7 days?",
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "labels": {
+              "1": "Unlikely",
+              "5": "Very likely"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 28,
+      "title": "Raising First-Generation Wealthy Children",
+      "questionCount": 6,
+      "questions": [
+        {
+          "id": "c26_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **Expose early** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A technique for ordering wine by choosing the cheapest bottle."
+            },
+            {
+              "id": "b",
+              "text": "Take your children to the places and experiences in this book. The restaurant, the gallery, the golf course, the travel destination. Don't shield them from your new world—include them in it. A child who visits a museum at six is building cultural capital that compounds for decades."
+            },
+            {
+              "id": "c",
+              "text": "This is the hard part. The fact that you can afford something doesn't mean your child should automatically have it. Chores, earned privileges, delayed gratification, and the word “no” are not deprivations—they're gifts. The most dangerous thing you can give a child is the sense that comfort is guaranteed."
+            },
+            {
+              "id": "d",
+              "text": "A tier used to describe net worth and lifestyle differences."
+            }
+          ],
+          "answer": "b",
+          "explanation": "Take your children to the places and experiences in this book. The restaurant, the gallery, the golf course, the travel destination. Don't shield them from your new world—include them in it. A child who visits a museum at six is building cultural capital that compounds for decades."
+        },
+        {
+          "id": "c26_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "It’s always correct to argue about the check in business settings."
+            },
+            {
+              "id": "b",
+              "text": "The best move is to imitate the spending of the wealthiest person present."
+            },
+            {
+              "id": "c",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            },
+            {
+              "id": "d",
+              "text": "Framework: expose early, explain always, entitle never."
+            }
+          ],
+          "answer": "d",
+          "explanation": "Framework: expose early, explain always, entitle never."
+        },
+        {
+          "id": "c26_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "Showing off brands and logos is the safest way to fit in."
+            },
+            {
+              "id": "b",
+              "text": "Worship together, serve together, model integrity. Values are taught by observation."
+            },
+            {
+              "id": "c",
+              "text": "Always talk about price first to signal transparency."
+            },
+            {
+              "id": "d",
+              "text": "Tell your children your story. Your origin is their most valuable inheritance."
+            }
+          ],
+          "answer": [
+            "b",
+            "d"
+          ],
+          "explanation": "Correct selections: Tell your children your story. Your origin is their most valuable inheritance. | Worship together, serve together, model integrity. Values are taught by observation."
+        },
+        {
+          "id": "c26_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c26_q5",
+          "type": "text",
+          "prompt": "Short answer: Start one family financial conversation this month, calibrated to your children’s age. For young kids: a savings jar and a chore chart. For teens: a real budget conversation. For young adults: an honest discussion about the family’s values around money. The conversation itself is the gift.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        },
+        {
+          "id": "c26_q6",
+          "type": "scale",
+          "prompt": "On a scale of 1–5, how likely are you to try the chapter’s suggested action in the next 7 days?",
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "labels": {
+              "1": "Unlikely",
+              "5": "Very likely"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 29,
+      "title": "The Wealth You’re Actually Building",
+      "questionCount": 5,
+      "questions": [
+        {
+          "id": "c27_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **Body** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "achievement is external. It's measured by others—the title, the income, the possessions. Joy is internal. It's measured by you—the quality of your morning, the depth of your relationships, the alignment between your values and your life. Achievement can be taken away. Joy, once cultivated, is resilient."
+            },
+            {
+              "id": "b",
+              "text": "your credentials, your expertise, your reputation, your earning power. This is the wealth that got you into this book. It's essential, but it's also the most fragile—one industry disruption, one health crisis, one burnout episode can destabilize it."
+            },
+            {
+              "id": "c",
+              "text": "the depth and breadth of your relationships, the people who would take your call at midnight, the network that generates opportunities, advice, and support. Every dinner party you host, every round of golf you play, every benefit you attend is an investment in relational wealth. It compounds more reliably than any stock."
+            },
+            {
+              "id": "d",
+              "text": "Am I physically healthy? Am I training consistently? Am I sleeping well? Is my energy where it needs to be?"
+            }
+          ],
+          "answer": "d",
+          "explanation": "Am I physically healthy? Am I training consistently? Am I sleeping well? Is my energy where it needs to be?"
+        },
+        {
+          "id": "c27_q2",
+          "type": "single",
+          "prompt": "Which statement best matches a key point from the chapter?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Cultural fluency is judged only in formal performance reviews."
+            },
+            {
+              "id": "b",
+              "text": "Herjavec’s lesson: achievement without joy is a trap. Pursue both."
+            },
+            {
+              "id": "c",
+              "text": "It’s always correct to argue about the check in business settings."
+            },
+            {
+              "id": "d",
+              "text": "You need to become an expert to be taken seriously in affluent rooms."
+            }
+          ],
+          "answer": "b",
+          "explanation": "Herjavec’s lesson: achievement without joy is a trap. Pursue both."
+        },
+        {
+          "id": "c27_q3",
+          "type": "multi",
+          "prompt": "Select **two** ideas that the chapter supports.",
+          "options": [
+            {
+              "id": "a",
+              "text": "The goal is to sound impressive, not to learn."
+            },
+            {
+              "id": "b",
+              "text": "Frank’s insight: the affluent world needs professionals who understand its culture. That’s you now."
+            },
+            {
+              "id": "c",
+              "text": "Four dimensions of wealth: professional, relational, experiential, spiritual. Only one has a dollar sign."
+            },
+            {
+              "id": "d",
+              "text": "Etiquette doesn’t matter if your work is strong."
+            }
+          ],
+          "answer": [
+            "b",
+            "c"
+          ],
+          "explanation": "Correct selections: Frank’s insight: the affluent world needs professionals who understand its culture. That’s you now. | Four dimensions of wealth: professional, relational, experiential, spiritual. Only one has a dollar sign."
+        },
+        {
+          "id": "c27_q4",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c27_q5",
+          "type": "text",
+          "prompt": "Short answer: Schedule your first three-pillar check-in right now. Put it on your calendar for 90 days from today. Ask yourself the nine questions above. Adjust accordingly. Then schedule the next one. This simple practice is the operating system for everything else in this book.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        }
+      ]
+    },
+    {
+      "chapter": 30,
+      "title": "Your Playbook — A 12-Month Action Plan",
+      "questionCount": 4,
+      "questions": [
+        {
+          "id": "c28_q1",
+          "type": "single",
+          "prompt": "In this chapter, what does **Month 4** mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Host & Connect. Host a second dinner party—more ambitious this time (better wine, a theme, or a private chef). Attend a benefit dinner and work the room using the Chapter 24 strategies. Strengthen one key professional relationship through shared experience (golf, dinner, travel)."
+            },
+            {
+              "id": "b",
+              "text": "Social & Spiritual. Host your first dinner party (6–8 people, simple menu, good wine). Attend one cultural event (gallery opening, benefit dinner, charity gala). Reconnect with your faith community if lapsed—attend one service or gathering. Send three handwritten thank-you notes this month."
+            },
+            {
+              "id": "c",
+              "text": "Art & Culture. Visit a gallery or museum. Attend an auction preview at Christie's, Sotheby's, or Phillips (free, open to public). Buy your first piece of art ($500–2,000—emerging artist or print). Read one book from the Chapter 25 reading list."
+            },
+            {
+              "id": "d",
+              "text": "Investment & Board. Meet with a wealth advisor. Explore board service opportunities at nonprofits you care about. Deepen your wine knowledge: take a class, visit a region, or join a tasting group. Begin building your 12-bottle collection."
+            }
+          ],
+          "answer": "c",
+          "explanation": "Art & Culture. Visit a gallery or museum. Attend an auction preview at Christie's, Sotheby's, or Phillips (free, open to public). Buy your first piece of art ($500–2,000—emerging artist or print). Read one book from the Chapter 25 reading list."
+        },
+        {
+          "id": "c28_q2",
+          "type": "single",
+          "prompt": "You’re in a conversation and a topic from this chapter comes up, but you’re not fluent yet. What response fits the chapter’s approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ask a curious question and invite the other person to teach you."
+            },
+            {
+              "id": "b",
+              "text": "Bluff with jargon you recently learned."
+            },
+            {
+              "id": "c",
+              "text": "Dismiss the topic as unimportant."
+            },
+            {
+              "id": "d",
+              "text": "Stay silent and leave early."
+            }
+          ],
+          "answer": "a",
+          "explanation": "Ask a curious question and invite the other person to teach you."
+        },
+        {
+          "id": "c28_q3",
+          "type": "text",
+          "prompt": "Short answer: Write 2–4 sentences about how you can apply the main idea of 'Your Playbook — A 12-Month Action Plan' in a real upcoming situation.",
+          "validation": {
+            "minLength": 20,
+            "maxLength": 600
+          }
+        },
+        {
+          "id": "c28_q4",
+          "type": "scale",
+          "prompt": "On a scale of 1–5, how likely are you to try the chapter’s suggested action in the next 7 days?",
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "labels": {
+              "1": "Unlikely",
+              "5": "Very likely"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
