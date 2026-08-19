@@ -179,7 +179,6 @@
     "fullBody": "Social enterprise restaurants operate on a philanthropic model where all surplus revenue is directed toward local food banks or community training programs.",
     "interests": ["dining", "philanthropy"]
   },
-
   {
     "id": "fact_031",
     "pushBody": "The first 'Fashion Week' was held in 1943.",
@@ -662,5 +661,888 @@
     "pushBody": "Impact investing creates social change.",
     "fullBody": "This philanthropic financial strategy involves investing in companies that generate measurable social or environmental benefits alongside a financial return.",
     "interests": ["money", "philanthropy"]
+  },
+  {
+    "id": "fact_111",
+    "pushBody": "The first practical automobile had only three wheels.",
+    "fullBody": "Karl Benz's Patent-Motorwagen, patented in 1886, used a single-cylinder engine and three wheels. It is widely regarded as the first practical automobile designed around an internal-combustion engine.",
+    "interests": [
+      "cars",
+      "history"
+    ]
+  },
+  {
+    "id": "fact_112",
+    "pushBody": "Windshield wipers were invented before enclosed cars were common.",
+    "fullBody": "Mary Anderson patented a manually operated windshield-cleaning device in 1903 after noticing drivers struggling to see through rain and snow.",
+    "interests": [
+      "cars",
+      "history"
+    ]
+  },
+  {
+    "id": "fact_113",
+    "pushBody": "Electric cars are older than the modern highway.",
+    "fullBody": "Battery-powered vehicles appeared in the 1800s and were popular in some cities around 1900 because they were quiet, clean at the point of use, and easy to start.",
+    "interests": [
+      "cars",
+      "money"
+    ]
+  },
+  {
+    "id": "fact_114",
+    "pushBody": "A differential prevents tires from fighting each other.",
+    "fullBody": "When a car turns, the outside wheel travels farther than the inside wheel. The differential allows driven wheels to rotate at different speeds while still receiving power.",
+    "interests": [
+      "cars"
+    ]
+  },
+  {
+    "id": "fact_115",
+    "pushBody": "ABS works by rapidly releasing and reapplying braking force.",
+    "fullBody": "An anti-lock braking system monitors wheel speed and reduces brake pressure when a wheel is about to lock, helping the driver maintain steering control during hard braking.",
+    "interests": [
+      "cars",
+      "fitness"
+    ]
+  },
+  {
+    "id": "fact_116",
+    "pushBody": "Catalytic converters create chemical reactions without being consumed.",
+    "fullBody": "Metals such as platinum, palladium, and rhodium help convert carbon monoxide, hydrocarbons, and nitrogen oxides into less harmful exhaust gases.",
+    "interests": [
+      "cars",
+      "money"
+    ]
+  },
+  {
+    "id": "fact_117",
+    "pushBody": "Radial tires are named after the direction of their cords.",
+    "fullBody": "In a radial tire, reinforcing cords run roughly at right angles to the direction of travel, helping the tread and sidewall perform more independently.",
+    "interests": [
+      "cars"
+    ]
+  },
+  {
+    "id": "fact_118",
+    "pushBody": "Modern car paint is usually a layered system.",
+    "fullBody": "A vehicle body commonly receives corrosion protection, primer, a colored base coat, and a transparent clear coat that adds gloss and protects the color underneath.",
+    "interests": [
+      "cars",
+      "art"
+    ]
+  },
+  {
+    "id": "fact_119",
+    "pushBody": "The word 'odometer' literally describes measuring a road.",
+    "fullBody": "The name comes from Greek roots associated with a road or journey and measurement. Modern odometers calculate distance from wheel rotation or electronic vehicle-speed data.",
+    "interests": [
+      "cars",
+      "travel"
+    ]
+  },
+  {
+    "id": "fact_120",
+    "pushBody": "Standard modern VINs contain 17 characters.",
+    "fullBody": "Since the 1981 model year, road vehicles sold in major markets such as the United States and Canada have used a standardized 17-character Vehicle Identification Number.",
+    "interests": [
+      "cars",
+      "money"
+    ]
+  },
+  {
+    "id": "fact_121",
+    "pushBody": "Natural cork can be harvested without cutting down the tree.",
+    "fullBody": "Wine cork comes from the bark of the cork oak. Skilled workers remove the outer bark, and the living tree grows a new layer that can be harvested again years later.",
+    "interests": [
+      "wine",
+      "philanthropy"
+    ]
+  },
+  {
+    "id": "fact_122",
+    "pushBody": "Sparkling-wine bottles hold several times normal air pressure.",
+    "fullBody": "Carbon dioxide produced during secondary fermentation can create roughly five to six bars of pressure, which is why sparkling-wine bottles use thick glass and secured closures.",
+    "interests": [
+      "wine",
+      "fitness"
+    ]
+  },
+  {
+    "id": "fact_123",
+    "pushBody": "Rosé usually gets its color from brief skin contact.",
+    "fullBody": "Most rosé begins with dark-skinned grapes, but the juice stays with the skins for a much shorter time than red wine, producing a lighter pink color.",
+    "interests": [
+      "wine",
+      "dining"
+    ]
+  },
+  {
+    "id": "fact_124",
+    "pushBody": "Wine tannins can come from more than grape skins.",
+    "fullBody": "Tannins may be extracted from grape skins, seeds, and stems, as well as from oak barrels. They contribute bitterness, structure, and a drying sensation in the mouth.",
+    "interests": [
+      "wine",
+      "dining"
+    ]
+  },
+  {
+    "id": "fact_125",
+    "pushBody": "'Noble rot' can make prized sweet wines.",
+    "fullBody": "Under suitable conditions, Botrytis cinerea shrivels grapes and concentrates their sugar, acidity, and flavors, helping produce complex sweet wines such as Tokaji and Sauternes.",
+    "interests": [
+      "wine",
+      "travel"
+    ]
+  },
+  {
+    "id": "fact_126",
+    "pushBody": "Phylloxera changed European vineyards forever.",
+    "fullBody": "The vine pest devastated European vineyards in the 1800s. Many vineyards recovered by grafting European grape varieties onto resistant American rootstocks.",
+    "interests": [
+      "wine",
+      "history"
+    ]
+  },
+  {
+    "id": "fact_127",
+    "pushBody": "Ice wine begins with grapes frozen on the vine.",
+    "fullBody": "The frozen water remains behind during pressing, leaving a small amount of highly concentrated juice that can be fermented into an intensely sweet, acidic wine.",
+    "interests": [
+      "wine",
+      "travel"
+    ]
+  },
+  {
+    "id": "fact_128",
+    "pushBody": "A screw cap can protect serious wine, not just cheap wine.",
+    "fullBody": "Quality producers use screw caps because they provide a consistent seal and avoid cork taint. The best closure depends on the wine style and intended aging.",
+    "interests": [
+      "wine",
+      "money"
+    ]
+  },
+  {
+    "id": "fact_129",
+    "pushBody": "Ancient clay vessels are returning to modern wineries.",
+    "fullBody": "Winemakers in several regions ferment or age wine in amphorae and similar clay vessels, reviving techniques used thousands of years ago while experimenting with oxygen exposure and texture.",
+    "interests": [
+      "wine",
+      "art"
+    ]
+  },
+  {
+    "id": "fact_130",
+    "pushBody": "Umami was identified from seaweed broth.",
+    "fullBody": "In 1908, Japanese chemist Kikunae Ikeda linked the savory taste of kombu broth to glutamate and proposed umami as a distinct basic taste.",
+    "interests": [
+      "dining",
+      "history"
+    ]
+  },
+  {
+    "id": "fact_131",
+    "pushBody": "Browning food creates hundreds of new flavor compounds.",
+    "fullBody": "The Maillard reaction occurs when amino acids and certain sugars react under heat, producing the aromas and colors associated with toasted bread, roasted coffee, and seared meat.",
+    "interests": [
+      "dining",
+      "art"
+    ]
+  },
+  {
+    "id": "fact_132",
+    "pushBody": "Vanilla comes from an orchid.",
+    "fullBody": "Vanilla pods are the fruit of climbing orchids in the genus Vanilla. Outside their native habitat, flowers often need to be pollinated by hand.",
+    "interests": [
+      "dining",
+      "travel"
+    ]
+  },
+  {
+    "id": "fact_133",
+    "pushBody": "Botanically, bananas are berries.",
+    "fullBody": "A botanical berry develops from a single flower with one ovary and usually has seeds embedded in the flesh. Bananas fit that definition, while strawberries do not.",
+    "interests": [
+      "dining"
+    ]
+  },
+  {
+    "id": "fact_134",
+    "pushBody": "Peanuts are legumes, not true nuts.",
+    "fullBody": "Peanut plants belong to the same broad family as beans and peas. After flowering, their developing pods are pushed underground, where the peanuts mature.",
+    "interests": [
+      "dining",
+      "fitness"
+    ]
+  },
+  {
+    "id": "fact_135",
+    "pushBody": "Honey naturally resists many microbes.",
+    "fullBody": "Its low water availability, acidity, and production of small amounts of hydrogen peroxide make properly stored honey an unusually difficult environment for many microorganisms.",
+    "interests": [
+      "dining",
+      "fitness"
+    ]
+  },
+  {
+    "id": "fact_136",
+    "pushBody": "Chili peppers trigger a heat sensor without raising temperature.",
+    "fullBody": "Capsaicin activates TRPV1 receptors that normally respond to damaging heat, so the nervous system interprets the chemical signal as burning.",
+    "interests": [
+      "dining",
+      "fitness"
+    ]
+  },
+  {
+    "id": "fact_137",
+    "pushBody": "Cilantro can taste soapy partly because of genetics.",
+    "fullBody": "Some people are especially sensitive to aldehyde compounds found in cilantro. Variations in smell-receptor genes can influence whether the herb tastes fresh or soap-like.",
+    "interests": [
+      "dining",
+      "fitness"
+    ]
+  },
+  {
+    "id": "fact_138",
+    "pushBody": "A popcorn kernel is a tiny pressure vessel.",
+    "fullBody": "Water trapped inside the hard hull turns to steam as the kernel heats. Pressure rises until the shell ruptures and the softened starch rapidly expands.",
+    "interests": [
+      "dining"
+    ]
+  },
+  {
+    "id": "fact_139",
+    "pushBody": "Denim's name points to a French city.",
+    "fullBody": "The word is commonly linked to 'serge de Nîmes,' a durable fabric associated with Nîmes, France. Denim later became inseparable from American workwear and jeans.",
+    "interests": [
+      "fashion",
+      "travel"
+    ]
+  },
+  {
+    "id": "fact_140",
+    "pushBody": "Blue-jean rivets began as a durability solution.",
+    "fullBody": "Jacob Davis and Levi Strauss received an 1873 patent for reinforcing work trousers with metal rivets at stress points such as pocket corners.",
+    "interests": [
+      "fashion",
+      "money"
+    ]
+  },
+  {
+    "id": "fact_141",
+    "pushBody": "The word 'zipper' came after the invention.",
+    "fullBody": "Early versions were called names such as the clasp locker or separable fastener. The catchy word 'zipper' became popular after it was used for a rubber boot in the 1920s.",
+    "interests": [
+      "fashion",
+      "history"
+    ]
+  },
+  {
+    "id": "fact_142",
+    "pushBody": "The cardigan is named after a military commander.",
+    "fullBody": "The knitted, front-opening garment took its name from James Brudenell, the 7th Earl of Cardigan, who commanded the Light Brigade during the Crimean War.",
+    "interests": [
+      "fashion",
+      "history"
+    ]
+  },
+  {
+    "id": "fact_143",
+    "pushBody": "The raglan sleeve also has a military namesake.",
+    "fullBody": "Its diagonal seam runs from the underarm toward the collar. The style is associated with Lord Raglan, who reportedly used a modified coat after losing an arm.",
+    "interests": [
+      "fashion",
+      "art"
+    ]
+  },
+  {
+    "id": "fact_144",
+    "pushBody": "The bikini was named after a nuclear-test location.",
+    "fullBody": "French designer Louis Réard introduced the swimsuit in 1946 and named it after Bikini Atoll, hoping the design would create an equally explosive public reaction.",
+    "interests": [
+      "fashion",
+      "travel"
+    ]
+  },
+  {
+    "id": "fact_145",
+    "pushBody": "The tuxedo took its name from a New York community.",
+    "fullBody": "The shorter dinner jacket became associated in the United States with Tuxedo Park, New York, where it was worn at an elite social event in the 1880s.",
+    "interests": [
+      "fashion",
+      "money"
+    ]
+  },
+  {
+    "id": "fact_146",
+    "pushBody": "The trench coat evolved from military outerwear.",
+    "fullBody": "Water-resistant coats developed for military officers became closely associated with the trenches of World War I before entering civilian fashion.",
+    "interests": [
+      "fashion",
+      "history"
+    ]
+  },
+  {
+    "id": "fact_147",
+    "pushBody": "Nylon was the first widely successful fully synthetic fiber.",
+    "fullBody": "Developed by DuPont scientists in the 1930s, nylon was used for products ranging from toothbrush bristles and stockings to parachutes and industrial cords.",
+    "interests": [
+      "fashion",
+      "money"
+    ]
+  },
+  {
+    "id": "fact_148",
+    "pushBody": "A mechanical watch releases its energy in tiny controlled steps.",
+    "fullBody": "The escapement repeatedly locks and unlocks the gear train, delivering small impulses to the oscillator and producing the familiar ticking motion.",
+    "interests": [
+      "watches"
+    ]
+  },
+  {
+    "id": "fact_149",
+    "pushBody": "The tourbillon was patented in 1801.",
+    "fullBody": "Abraham-Louis Breguet placed the escapement and balance inside a rotating cage to average out some positional errors caused by gravity in pocket watches.",
+    "interests": [
+      "watches",
+      "history"
+    ]
+  },
+  {
+    "id": "fact_150",
+    "pushBody": "A minute repeater tells time with sound.",
+    "fullBody": "When activated, this mechanical complication strikes different tones for hours, quarter-hours, and minutes, allowing the wearer to hear the time in darkness.",
+    "interests": [
+      "watches",
+      "art"
+    ]
+  },
+  {
+    "id": "fact_151",
+    "pushBody": "A perpetual calendar knows the lengths of different months.",
+    "fullBody": "Its mechanical program accounts for 30-day months, 31-day months, and leap years, although most traditional designs require correction in the year 2100.",
+    "interests": [
+      "watches"
+    ]
+  },
+  {
+    "id": "fact_152",
+    "pushBody": "'Chronometer' is a precision designation, not a synonym for watch.",
+    "fullBody": "The term is generally reserved for a timepiece or movement that has met defined accuracy-testing standards under specified conditions.",
+    "interests": [
+      "watches",
+      "money"
+    ]
+  },
+  {
+    "id": "fact_153",
+    "pushBody": "Sapphire watch crystals are made from synthetic corundum.",
+    "fullBody": "They are extremely hard and scratch-resistant, though a hard impact can still chip or crack them.",
+    "interests": [
+      "watches",
+      "art"
+    ]
+  },
+  {
+    "id": "fact_154",
+    "pushBody": "A power-reserve display is a mechanical fuel gauge.",
+    "fullBody": "It indicates how much running time remains before a mechanical watch's mainspring must be wound again.",
+    "interests": [
+      "watches",
+      "cars"
+    ]
+  },
+  {
+    "id": "fact_155",
+    "pushBody": "A GMT watch normally uses a 24-hour hand.",
+    "fullBody": "The additional hand circles the dial once per day and can be read against a 24-hour scale to track another time zone without confusing day and night.",
+    "interests": [
+      "watches",
+      "travel"
+    ]
+  },
+  {
+    "id": "fact_156",
+    "pushBody": "The official second is defined using cesium atoms.",
+    "fullBody": "The SI second is tied to exactly 9,192,631,770 periods of radiation associated with a transition in the cesium-133 atom.",
+    "interests": [
+      "watches",
+      "history"
+    ]
+  },
+  {
+    "id": "fact_157",
+    "pushBody": "Ultramarine was once more expensive than gold.",
+    "fullBody": "Traditional ultramarine pigment was made from lapis lazuli imported from distant mines. Its cost meant painters often reserved it for especially important areas, such as sacred clothing.",
+    "interests": [
+      "art",
+      "money"
+    ]
+  },
+  {
+    "id": "fact_158",
+    "pushBody": "A true fresco becomes part of the wall.",
+    "fullBody": "In buon fresco, pigment mixed with water is applied to fresh wet plaster. As the plaster cures, the color becomes chemically bound into the surface.",
+    "interests": [
+      "art"
+    ]
+  },
+  {
+    "id": "fact_159",
+    "pushBody": "Pointillist paintings mix color inside your vision.",
+    "fullBody": "Artists place many small dots or strokes of separate colors next to one another, allowing the viewer's eyes and brain to blend them from a distance.",
+    "interests": [
+      "art",
+      "fitness"
+    ]
+  },
+  {
+    "id": "fact_160",
+    "pushBody": "Lost-wax casting destroys the original wax model.",
+    "fullBody": "A wax form is enclosed in heat-resistant material and melted away, leaving a cavity that can be filled with molten metal to create a sculpture.",
+    "interests": [
+      "art",
+      "history"
+    ]
+  },
+  {
+    "id": "fact_161",
+    "pushBody": "Canvas became especially useful to painters in Venice.",
+    "fullBody": "Compared with wooden panels, canvas was lighter, easier to transport, and better suited to the damp environment and large paintings produced in Renaissance Venice.",
+    "interests": [
+      "art",
+      "travel"
+    ]
+  },
+  {
+    "id": "fact_162",
+    "pushBody": "Oil paint dries by reacting with oxygen.",
+    "fullBody": "Drying oils such as linseed oil harden mainly through oxidation and polymerization rather than simply losing water like watercolor paint.",
+    "interests": [
+      "art"
+    ]
+  },
+  {
+    "id": "fact_163",
+    "pushBody": "Chiaroscuro uses darkness to build volume and drama.",
+    "fullBody": "Strong contrasts between light and shadow can make flat painted forms appear three-dimensional while directing attention to important parts of a composition.",
+    "interests": [
+      "art",
+      "fashion"
+    ]
+  },
+  {
+    "id": "fact_164",
+    "pushBody": "Cyanotype photography created the original blueprints.",
+    "fullBody": "John Herschel invented the cyanotype process in 1842. Its iron-based chemistry produces a deep blue image and was later widely used to reproduce technical drawings.",
+    "interests": [
+      "art",
+      "history"
+    ]
+  },
+  {
+    "id": "fact_165",
+    "pushBody": "Egyptian blue was one of the earliest synthetic pigments.",
+    "fullBody": "Ancient craftspeople produced the blue material by heating ingredients containing silica, copper, calcium, and an alkali, creating a color not simply ground from a natural stone.",
+    "interests": [
+      "art",
+      "history"
+    ]
+  },
+  {
+    "id": "fact_166",
+    "pushBody": "The International Date Line is not a straight line.",
+    "fullBody": "It bends around countries and island groups so nearby communities are not unnecessarily divided between two calendar dates.",
+    "interests": [
+      "travel",
+      "watches"
+    ]
+  },
+  {
+    "id": "fact_167",
+    "pushBody": "Airport runway numbers are based on compass direction.",
+    "fullBody": "A runway is generally numbered from its magnetic heading rounded to the nearest ten degrees, with the final zero removed. The opposite end differs by 18.",
+    "interests": [
+      "travel",
+      "watches"
+    ]
+  },
+  {
+    "id": "fact_168",
+    "pushBody": "The shortest route on a globe usually looks curved on a flat map.",
+    "fullBody": "Aircraft often follow great-circle routes, the shortest paths between two points on a sphere, which appear curved on common map projections.",
+    "interests": [
+      "travel",
+      "art"
+    ]
+  },
+  {
+    "id": "fact_169",
+    "pushBody": "Jet streams can shorten flights in one direction.",
+    "fullBody": "Fast-moving winds high in the atmosphere can provide a strong tailwind, so an eastbound flight may take less time than the same route westbound.",
+    "interests": [
+      "travel",
+      "fitness"
+    ]
+  },
+  {
+    "id": "fact_170",
+    "pushBody": "Airliner cabins are not pressurized to sea-level conditions.",
+    "fullBody": "At cruising altitude, cabin pressure commonly feels similar to being about 6,000 to 8,000 feet above sea level, reducing the pressure difference the aircraft must withstand.",
+    "interests": [
+      "travel",
+      "fitness"
+    ]
+  },
+  {
+    "id": "fact_171",
+    "pushBody": "The Schengen Area is named after a small village.",
+    "fullBody": "The original agreement was signed near Schengen in Luxembourg in 1985, and the village's name became associated with passport-free travel across much of Europe.",
+    "interests": [
+      "travel",
+      "history"
+    ]
+  },
+  {
+    "id": "fact_172",
+    "pushBody": "Modern passport standards grew from international cooperation.",
+    "fullBody": "After World War I, international conferences helped standardize passport formats and travel documents that had previously varied widely between countries.",
+    "interests": [
+      "travel",
+      "history"
+    ]
+  },
+  {
+    "id": "fact_173",
+    "pushBody": "The most common railway gauge is 1,435 millimeters.",
+    "fullBody": "Known as standard gauge, the distance between the inner faces of the rails is used across a large share of the world's railway network.",
+    "interests": [
+      "travel",
+      "cars"
+    ]
+  },
+  {
+    "id": "fact_174",
+    "pushBody": "The World Heritage Convention was adopted in 1972.",
+    "fullBody": "UNESCO's convention created an international framework for identifying and protecting cultural and natural places considered valuable to humanity.",
+    "interests": [
+      "travel",
+      "philanthropy"
+    ]
+  },
+  {
+    "id": "fact_175",
+    "pushBody": "A golfer may carry no more than 14 clubs.",
+    "fullBody": "The Rules of Golf limit a player to 14 clubs during a round, although the player may choose any legal combination of drivers, irons, wedges, putters, or other clubs.",
+    "interests": [
+      "golf"
+    ]
+  },
+  {
+    "id": "fact_176",
+    "pushBody": "Every regulation golf hole is 4.25 inches wide.",
+    "fullBody": "The Rules of Golf specify a diameter of 4.25 inches, or 108 millimeters, and a depth of at least 4 inches.",
+    "interests": [
+      "golf",
+      "fitness"
+    ]
+  },
+  {
+    "id": "fact_177",
+    "pushBody": "An albatross is three strokes under par on one hole.",
+    "fullBody": "It most often occurs when a player completes a par-five in only two strokes. In the United States, the score is also commonly called a double eagle.",
+    "interests": [
+      "golf"
+    ]
+  },
+  {
+    "id": "fact_178",
+    "pushBody": "The golf term 'birdie' began as American slang.",
+    "fullBody": "Around the turn of the 20th century, 'bird' could mean something excellent. Golfers adopted 'birdie' for a score of one under par on a hole.",
+    "interests": [
+      "golf",
+      "history"
+    ]
+  },
+  {
+    "id": "fact_179",
+    "pushBody": "A links course is defined by its landscape, not web links.",
+    "fullBody": "Traditional links courses occupy sandy coastal ground, often with few trees, firm turf, natural dunes, and wind that strongly affects play.",
+    "interests": [
+      "golf",
+      "travel"
+    ]
+  },
+  {
+    "id": "fact_180",
+    "pushBody": "Golfers once teed the ball on piles of sand.",
+    "fullBody": "Before wooden and plastic tees became common, players formed a small mound of damp sand inside the teeing area for the opening shot of each hole.",
+    "interests": [
+      "golf",
+      "history"
+    ]
+  },
+  {
+    "id": "fact_181",
+    "pushBody": "Clubface grooves help when grass or water gets between club and ball.",
+    "fullBody": "Grooves can channel moisture and debris away from the contact area, helping preserve friction and spin, especially from rough or wet lies.",
+    "interests": [
+      "golf",
+      "fitness"
+    ]
+  },
+  {
+    "id": "fact_182",
+    "pushBody": "Match play and stroke play reward different strategies.",
+    "fullBody": "Stroke play totals every shot across the round, while match play awards individual holes, so one disastrous hole does not automatically ruin the entire match.",
+    "interests": [
+      "golf",
+      "money"
+    ]
+  },
+  {
+    "id": "fact_183",
+    "pushBody": "Dimples help a golf ball stay airborne.",
+    "fullBody": "They create a controlled turbulent layer of air around the ball, reducing pressure drag and helping backspin generate lift.",
+    "interests": [
+      "golf",
+      "fitness"
+    ]
+  },
+  {
+    "id": "fact_184",
+    "pushBody": "Port and starboard never depend on where you are standing.",
+    "fullBody": "When facing the bow, port is the vessel's left side and starboard is its right. Fixed names prevent confusion when crew members face different directions.",
+    "interests": [
+      "boats"
+    ]
+  },
+  {
+    "id": "fact_185",
+    "pushBody": "A knot is one nautical mile per hour.",
+    "fullBody": "The international nautical mile equals exactly 1,852 meters, so a vessel traveling at 10 knots covers 18.52 kilometers in one hour.",
+    "interests": [
+      "boats",
+      "watches"
+    ]
+  },
+  {
+    "id": "fact_186",
+    "pushBody": "A floating boat displaces its own weight in water.",
+    "fullBody": "According to Archimedes' principle, a floating vessel settles until the weight of the displaced water equals the vessel's total weight.",
+    "interests": [
+      "boats",
+      "fitness"
+    ]
+  },
+  {
+    "id": "fact_187",
+    "pushBody": "Ballast puts weight low to resist capsizing.",
+    "fullBody": "Sailboats often carry dense ballast in or below the hull. Its low position helps create a restoring force when wind pushes the boat sideways.",
+    "interests": [
+      "boats",
+      "fitness"
+    ]
+  },
+  {
+    "id": "fact_188",
+    "pushBody": "A catamaran gains stability from width instead of a deep keel.",
+    "fullBody": "Its two separated hulls create a broad platform with high initial stability and often less hydrodynamic resistance than a similar single-hull vessel.",
+    "interests": [
+      "boats",
+      "travel"
+    ]
+  },
+  {
+    "id": "fact_189",
+    "pushBody": "A bulbous bow can make a large ship more efficient.",
+    "fullBody": "At its intended speed, the underwater bulb creates a wave pattern that partially cancels the bow wave, reducing resistance and fuel use.",
+    "interests": [
+      "boats",
+      "money"
+    ]
+  },
+  {
+    "id": "fact_190",
+    "pushBody": "The Panama Canal lifts ships above sea level.",
+    "fullBody": "Locks raise vessels to the level of Gatun Lake and later lower them again, allowing ships to cross the isthmus without a sea-level channel.",
+    "interests": [
+      "boats",
+      "travel"
+    ]
+  },
+  {
+    "id": "fact_191",
+    "pushBody": "The Plimsoll line shows how deeply a ship may safely load.",
+    "fullBody": "Marks on a ship's hull indicate maximum safe drafts under different water and seasonal conditions, helping prevent dangerous overloading.",
+    "interests": [
+      "boats",
+      "philanthropy"
+    ]
+  },
+  {
+    "id": "fact_192",
+    "pushBody": "Sonar listens to sound while radar listens to radio waves.",
+    "fullBody": "Sonar is especially useful underwater because sound travels efficiently through water, while radar uses electromagnetic waves to detect objects above the surface.",
+    "interests": [
+      "boats",
+      "watches"
+    ]
+  },
+  {
+    "id": "fact_193",
+    "pushBody": "Training is the signal; recovery is when adaptation happens.",
+    "fullBody": "Exercise temporarily stresses muscles and other tissues. During recovery, the body repairs damage and adjusts its capacity for future work.",
+    "interests": [
+      "fitness"
+    ]
+  },
+  {
+    "id": "fact_194",
+    "pushBody": "Muscle soreness often peaks a day or two after exercise.",
+    "fullBody": "Delayed Onset Muscle Soreness usually develops after unfamiliar or demanding activity and can be strongest roughly 24 to 72 hours later.",
+    "interests": [
+      "fitness",
+      "watches"
+    ]
+  },
+  {
+    "id": "fact_195",
+    "pushBody": "Lowering a weight can cause more soreness than lifting it.",
+    "fullBody": "Eccentric contractions occur while a muscle lengthens under load. They can produce high force and often cause more muscle disruption after unfamiliar training.",
+    "interests": [
+      "fitness"
+    ]
+  },
+  {
+    "id": "fact_196",
+    "pushBody": "Progressive overload does not mean adding weight every workout.",
+    "fullBody": "Training can progress through more resistance, repetitions, range of motion, control, sets, or reduced assistance, provided the challenge increases appropriately over time.",
+    "interests": [
+      "fitness",
+      "money"
+    ]
+  },
+  {
+    "id": "fact_197",
+    "pushBody": "Creatine helps recycle the body's immediate energy currency.",
+    "fullBody": "Stored phosphocreatine donates a phosphate group to help regenerate ATP during short, intense efforts such as sprinting or heavy lifting.",
+    "interests": [
+      "fitness",
+      "dining"
+    ]
+  },
+  {
+    "id": "fact_198",
+    "pushBody": "Sweating more does not mean burning more fat.",
+    "fullBody": "Sweat primarily cools the body through evaporation. A rapid drop in body weight after a sweaty workout is mostly water that must be replaced.",
+    "interests": [
+      "fitness",
+      "dining"
+    ]
+  },
+  {
+    "id": "fact_199",
+    "pushBody": "Heart-rate recovery reveals how quickly the body calms down.",
+    "fullBody": "The fall in heart rate during the first minutes after exercise reflects nervous-system and cardiovascular recovery and is often used as one fitness indicator.",
+    "interests": [
+      "fitness",
+      "watches"
+    ]
+  },
+  {
+    "id": "fact_200",
+    "pushBody": "Bones strengthen in response to repeated loading.",
+    "fullBody": "Weight-bearing and impact exercise can stimulate bone remodeling, although the effect depends on factors such as age, nutrition, hormones, and training history.",
+    "interests": [
+      "fitness",
+      "dining"
+    ]
+  },
+  {
+    "id": "fact_201",
+    "pushBody": "Tendons usually adapt more slowly than muscles.",
+    "fullBody": "Muscle strength can increase relatively quickly, while tendons often require longer periods of consistent, progressive loading to increase their capacity.",
+    "interests": [
+      "fitness"
+    ]
+  },
+  {
+    "id": "fact_202",
+    "pushBody": "Compound interest earns interest on earlier interest.",
+    "fullBody": "When returns remain invested, each new period can generate growth on both the original principal and the gains accumulated before it.",
+    "interests": [
+      "money"
+    ]
+  },
+  {
+    "id": "fact_203",
+    "pushBody": "Diversification reduces some risks, but not every risk.",
+    "fullBody": "Holding different assets can reduce the damage caused by one company or sector performing badly, but it cannot eliminate broad market losses.",
+    "interests": [
+      "money",
+      "philanthropy"
+    ]
+  },
+  {
+    "id": "fact_204",
+    "pushBody": "Inflation can shrink money without changing its number.",
+    "fullBody": "An account balance may remain the same while rising prices reduce the quantity of goods and services that balance can purchase.",
+    "interests": [
+      "money",
+      "dining"
+    ]
+  },
+  {
+    "id": "fact_205",
+    "pushBody": "Buying a bond generally means lending money.",
+    "fullBody": "A bond investor lends funds to a government, company, or other issuer in exchange for promised interest payments and repayment under specified terms.",
+    "interests": [
+      "money"
+    ]
+  },
+  {
+    "id": "fact_206",
+    "pushBody": "A share of stock represents partial ownership.",
+    "fullBody": "Shareholders own an equity interest in a company and may benefit from price appreciation, dividends, or voting rights, depending on the share class.",
+    "interests": [
+      "money",
+      "philanthropy"
+    ]
+  },
+  {
+    "id": "fact_207",
+    "pushBody": "Double-entry bookkeeping is more than 500 years old.",
+    "fullBody": "Luca Pacioli described the debit-and-credit system in a 1494 mathematics book, helping spread a method already used by merchants in Renaissance Italy.",
+    "interests": [
+      "money",
+      "history"
+    ]
+  },
+  {
+    "id": "fact_208",
+    "pushBody": "An index fund tries to follow a market, not outguess it.",
+    "fullBody": "Instead of selecting securities solely to beat the market, an index fund generally holds assets designed to track the performance of a specified index.",
+    "interests": [
+      "money"
+    ]
+  },
+  {
+    "id": "fact_209",
+    "pushBody": "The Rule of 72 estimates doubling time.",
+    "fullBody": "Dividing 72 by an annual percentage return gives a rough estimate of how many years compounding may take to double an investment, before fees and taxes.",
+    "interests": [
+      "money",
+      "watches"
+    ]
+  },
+  {
+    "id": "fact_210",
+    "pushBody": "Liquidity describes how easily value becomes spendable cash.",
+    "fullBody": "Cash is highly liquid, while assets such as property may require substantial time, transaction costs, and negotiation before they can be converted into money.",
+    "interests": [
+      "money",
+      "cars"
+    ]
   }
 ]

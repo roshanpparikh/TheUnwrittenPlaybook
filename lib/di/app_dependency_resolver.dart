@@ -1,4 +1,4 @@
-import 'package:flutter_chat_core/flutter_chat_core.dart';
+
 import 'package:http/http.dart' as http;
 import 'package:isar_community/isar.dart';
 import 'package:upwork_the_unwritten_playbook/features/notifications/notification_cubit.dart';
@@ -56,7 +56,7 @@ class AppDependencyResolver {
 
     DependencyProvider.registerLazySingleton<UserRepository>(
           () => UserRepositoryImpl(
-        DependencyProvider.get<AppLogger>(),
+        DependencyProvider.get<AppLogger>()
       ),
     );
 
@@ -123,21 +123,21 @@ class AppDependencyResolver {
 
 
     DependencyProvider.registerLazySingleton<NotificationSettingsRepository>(
-      () => NotificationSettingsRepositoryImpl(
+          () => NotificationSettingsRepositoryImpl(
         const NotificationSettingsLocalSource(),
       ),
     );
 
     DependencyProvider.registerLazySingleton<DailyFactRepository>(
-      () =>  DailyFactRepositoryImpl(),
+          () =>  DailyFactRepositoryImpl(),
     );
 
     DependencyProvider.registerLazySingleton<NotificationService>(
-      () => NotificationService(),
+          () => NotificationService(),
     );
 
     DependencyProvider.registerFactory<NotificationCubit>(
-      () => NotificationCubit(
+          () => NotificationCubit(
         settingsRepository: DependencyProvider.get<NotificationSettingsRepository>(),
         factRepository: DependencyProvider.get<DailyFactRepository>(),
         service: DependencyProvider.get<NotificationService>(),
@@ -150,21 +150,20 @@ class AppDependencyResolver {
     // -------------------------
 
     DependencyProvider.registerLazySingleton<LocalTipSource>(
-      () => LocalTipSourceImpl(isar),
+          () => LocalTipSourceImpl(isar),
     );
 
     DependencyProvider.registerLazySingleton<RemoteTipSource>(
-      () => RemoteTipSourceImpl(
+          () => RemoteTipSourceImpl(
         httpClient: DependencyProvider.get<http.Client>(),
         apiKey: openAIKey,
       ),
     );
 
     DependencyProvider.registerLazySingleton<TipsRepository>(
-      () => TipsRepositoryImpl(
-        local: DependencyProvider.get<LocalTipSource>(),
-        remote: DependencyProvider.get<RemoteTipSource>(),
-        embeddedChunkRepository: DependencyProvider.get<EmbeddedChunkRepository>(),
+          () => TipsRepositoryImpl(
+          local: DependencyProvider.get<LocalTipSource>(),
+          remote: DependencyProvider.get<RemoteTipSource>()
       ),
     );
   }

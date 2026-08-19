@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:developer' as developer;
 import 'dart:math';
 
 import 'package:flutter/services.dart';
@@ -10,22 +11,55 @@ import '../domain/daily_fact_repository.dart';
 
 class DailyFactRepositoryImpl implements DailyFactRepository {
   static List<DailyFact>? _cache;
+  static Future<void>? _preloadFuture;
+
   static const _notificationId = 0;
   static const _kShownFacts = 'daily_facts.shown_ids';
   static const _kLastScheduledFact = 'daily_facts.last_scheduled';
 
   DailyFactRepositoryImpl() {
-    _preload();
+    _ensurePreloaded(invokedBy: 'constructor body');
   }
 
-  Future<void> _preload() async {
-    if (_cache != null) return;
+  Future<void> _ensurePreloaded({required String invokedBy}) {
+    if (_cache != null) {
+      return Future.value();
+    }
+
+    return _preloadFuture ??= _preload(invokedBy: invokedBy);
+  }
+
+  Future<void> _preload({required String invokedBy}) async {
+    developer.log(
+      'DEBUG.DailyFactRepository: _preload invoked: $invokedBy',
+    );
+
     try {
-      final raw = await rootBundle.loadString('assets/json/daily_facts.json');
-      _cache = (jsonDecode(raw) as List)
-          .map((e) => DailyFact.fromJson(e as Map<String, dynamic>))
-          .toList();
-    } catch (e) {
+      final raw = await rootBundle.loadString(
+        'assets/json/daily_facts.json',
+      );
+
+      final decoded = jsonDecode(raw) as List<dynamic>;
+
+      _cache = decoded
+          .map(
+            (item) => DailyFact.fromJson(
+          item as Map<String, dynamic>,
+        ),
+      )
+          .toList(growable: false);
+
+      developer.log(
+        'DEBUG.DailyFactRepository: '
+            'daily facts preloaded: ${_cache!.length} items',
+      );
+    } catch (error, stackTrace) {
+      developer.log(
+        'DEBUG.DailyFactRepository: preload failed',
+        error: error,
+        stackTrace: stackTrace,
+      );
+
       _cache = [];
     }
   }
@@ -57,7 +91,7 @@ class DailyFactRepositoryImpl implements DailyFactRepository {
 
   @override
   Future<List<DailyFact>> getShownFacts() async {
-    if (_cache == null) await _preload();
+    if (_cache == null) await _ensurePreloaded(invokedBy: "getShownFacts");
     final facts = _cache ?? [];
     final shownIds = (await _getShownIds()).toList(); // insertion order = oldest first
     final factById = {for (final f in facts) f.id: f};
@@ -96,7 +130,7 @@ class DailyFactRepositoryImpl implements DailyFactRepository {
 
   @override
   Future<DailyFactNotification?> factForToday(List<String> interests) async {
-    if (_cache == null) await _preload();
+    if (_cache == null) await _ensurePreloaded(invokedBy: "factForToday");
     final facts = _cache ?? [];
     if (facts.isEmpty) return null;
 
@@ -109,24 +143,33 @@ class DailyFactRepositoryImpl implements DailyFactRepository {
     final candidates = pool.isEmpty ? facts : pool;
 
     final shownIds = await _getShownIds();
-    
+
     // 2. Find unseen facts within the interest-based pool
     var unseen = candidates.where((f) => !shownIds.contains(f.id)).toList();
 
-    // 3. Fallback: If all facts in the interest pool have been seen, 
+    // 3. Fallback: If all facts in the interest pool have been seen,
     // check if there are ANY unseen facts globally
     if (unseen.isEmpty) {
       unseen = facts.where((f) => !shownIds.contains(f.id)).toList();
     }
 
-    // 4. Final Fallback: If every single fact in the database has been seen, 
+    // 4. Final Fallback: If every single fact in the database has been seen,
     // reset the pool to the original interest-based candidates
     if (unseen.isEmpty) {
       unseen = candidates;
       await clearShownHistory();
     }
 
-    final fact = unseen[Random().nextInt(unseen.length)];
+    // Prefer new facts (fact_111 - fact_210)
+    final newUnseen = unseen.where((f) => _isNewFact(f.id)).toList();
+
+    final selectionPool = newUnseen.isNotEmpty
+        ? newUnseen
+        : unseen;
+
+    final fact = selectionPool[
+    Random().nextInt(selectionPool.length)
+    ];
 
     return DailyFactNotification(
       id: _notificationId,
@@ -134,5 +177,13 @@ class DailyFactRepositoryImpl implements DailyFactRepository {
       minute: 0,
       fact: fact,
     );
+  }
+
+  bool _isNewFact(String id) {
+    final number = int.tryParse(
+      id.replaceFirst('fact_', ''),
+    );
+
+    return number != null && number >= 111 && number <= 210;
   }
 }

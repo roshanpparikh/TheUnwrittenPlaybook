@@ -32,6 +32,11 @@ class BookRepositoryImpl implements BookRepository {
   static List<ChapterModel>? _chaptersCache;
   static List<GlossaryTerm>? _glossaryCache;
 
+  static Future<Map<int, Map<String, dynamic>>>? _chapterContentFuture;
+  static Future<List<ChapterModel>>? _chaptersFuture;
+  static Future<List<GlossaryTerm>>? _glossaryFuture;
+
+
   Future<void> _preloadAll() async {
     debugPrint(
       'BookRepositoryImpl: preload started for chapters, chapter content, glossary, and tips.',
@@ -54,69 +59,75 @@ class BookRepositoryImpl implements BookRepository {
     }
   }
 
-  Future<Map<int, Map<String, dynamic>>> _loadChapterContent() async {
+  Future<Map<int, Map<String, dynamic>>> _loadChapterContent() {
     final cached = _chapterContentCache;
     if (cached != null) {
       debugPrint(
-        'BookRepositoryImpl._loadChapterContent: cache hit (${cached.length})',
+        'BookRepositoryImpl._loadChapterContent: '
+            'cache hit (${cached.length})',
       );
-      return cached;
+      return Future.value(cached);
     }
 
+    return _chapterContentFuture ??= _readChapterContent();
+  }
+
+  Future<Map<int, Map<String, dynamic>>> _readChapterContent() async {
     debugPrint(
-      'BookRepositoryImpl._loadChapterContent: loading asset $_chapterContentAssetPath',
+      'BookRepositoryImpl._readChapterContent: '
+          'loading asset $_chapterContentAssetPath',
     );
 
     try {
-      final jsonString = await rootBundle.loadString(_chapterContentAssetPath);
+      final jsonString = await rootBundle.loadString(
+        _chapterContentAssetPath,
+      );
 
       final decoded = jsonDecode(jsonString);
 
       if (decoded is! Map) {
-        throw FormatException(
+        throw const FormatException(
           'chapter_content.json root must be an object/map.',
         );
       }
 
-      final map = <int, Map<String, dynamic>>{};
+      final content = <int, Map<String, dynamic>>{};
+
       for (final entry in decoded.entries) {
-        final keyInt = int.tryParse(entry.key.toString());
-        if (keyInt == null) continue;
+        final chapterNumber = int.tryParse(entry.key.toString());
+        if (chapterNumber == null) continue;
 
         final value = entry.value;
         if (value is Map) {
-          map[keyInt] = value.cast<String, dynamic>();
+          content[chapterNumber] = value.cast<String, dynamic>();
         }
       }
 
-      _chapterContentCache = map;
+      _chapterContentCache = content;
 
       debugPrint(
-        'BookRepositoryImpl._loadChapterContent: loaded ${map.length} chapters',
+        'BookRepositoryImpl._readChapterContent: '
+            'loaded ${content.length} chapters',
       );
 
-      return map;
-    } catch (e, stackTrace) {
+      return content;
+    } catch (error, stackTrace) {
+      _chapterContentFuture = null;
+
       _appLogger.e(
-        'BookRepositoryImpl._loadChapterContent failed',
-        error: e,
+        'BookRepositoryImpl._readChapterContent failed',
+        error: error,
         stackTrace: stackTrace,
       );
+
       rethrow;
     }
   }
 
-  Future<List<ChapterModel>> _loadChapters() async {
-    final cached = _chaptersCache;
-    if (cached != null) {
-      debugPrint(
-        'BookRepositoryImpl._loadChapters: cache hit (${cached.length})',
-      );
-      return cached;
-    }
-
+  Future<List<ChapterModel>> _readChapters() async {
     debugPrint(
-      'BookRepositoryImpl._loadChapters: loading asset $_chaptersAssetPath',
+      'BookRepositoryImpl._readChapters: '
+          'loading asset $_chaptersAssetPath',
     );
 
     try {
@@ -131,24 +142,44 @@ class BookRepositoryImpl implements BookRepository {
 
       final chapters = decoded
           .whereType<Map>()
-          .map((m) => ChapterDto.fromJson(m.cast<String, dynamic>()).toModel())
-          .toList();
+          .map(
+            (map) => ChapterDto.fromJson(
+          map.cast<String, dynamic>(),
+        ).toModel(),
+      )
+          .toList(growable: false);
 
       _chaptersCache = chapters;
 
       debugPrint(
-        'BookRepositoryImpl._loadChapters: loaded ${chapters.length} chapters',
+        'BookRepositoryImpl._readChapters: '
+            'loaded ${chapters.length} chapters',
       );
 
       return chapters;
-    } catch (e, stackTrace) {
+    } catch (error, stackTrace) {
+      _chaptersFuture = null;
+
       _appLogger.e(
-        'BookRepositoryImpl._loadChapters failed',
-        error: e,
+        'BookRepositoryImpl._readChapters failed',
+        error: error,
         stackTrace: stackTrace,
       );
+
       rethrow;
     }
+  }
+
+  Future<List<ChapterModel>> _loadChapters() {
+    final cached = _chaptersCache;
+    if (cached != null) {
+      debugPrint(
+        'BookRepositoryImpl._loadChapters: cache hit (${cached.length})',
+      );
+      return Future.value(cached);
+    }
+
+    return _chaptersFuture ??= _readChapters();
   }
 
   @override
@@ -182,49 +213,71 @@ class BookRepositoryImpl implements BookRepository {
     return playbookParts
         .map(
           (p) => PlaybookPart(
-            id: p['id']!,
-            number: p['n']!,
-            title: p['t']!,
-            subtitle: p['s']!,
-          ),
-        )
+        id: p['id']!,
+        number: p['n']!,
+        title: p['t']!,
+        subtitle: p['s']!,
+      ),
+    )
         .toList();
   }
 
-  Future<List<GlossaryTerm>> _loadGlossary() async {
+  Future<List<GlossaryTerm>> _loadGlossary() {
     final cached = _glossaryCache;
     if (cached != null) {
       debugPrint(
         'BookRepositoryImpl._loadGlossary: cache hit (${cached.length})',
       );
-      return cached;
+      return Future.value(cached);
     }
 
+    return _glossaryFuture ??= _readGlossary();
+  }
+
+  Future<List<GlossaryTerm>> _readGlossary() async {
     debugPrint(
-      'BookRepositoryImpl._loadGlossary: loading asset $_glossaryAssetPath',
+      'BookRepositoryImpl._readGlossary: '
+          'loading asset $_glossaryAssetPath',
     );
 
-    final jsonString = await rootBundle.loadString(_glossaryAssetPath);
-    final decoded = jsonDecode(jsonString);
+    try {
+      final jsonString = await rootBundle.loadString(_glossaryAssetPath);
+      final decoded = jsonDecode(jsonString);
 
-    if (decoded is! List) {
-      throw const FormatException('glossary.json root must be a list.');
+      if (decoded is! List) {
+        throw const FormatException(
+          'glossary.json root must be a list.',
+        );
+      }
+
+      final terms = decoded
+          .whereType<Map>()
+          .map(
+            (map) => GlossaryTermDto.fromJson(
+          map.cast<String, dynamic>(),
+        ).toModel(),
+      )
+          .toList(growable: false);
+
+      _glossaryCache = terms;
+
+      debugPrint(
+        'BookRepositoryImpl._readGlossary: '
+            'loaded ${terms.length} terms',
+      );
+
+      return terms;
+    } catch (error, stackTrace) {
+      _glossaryFuture = null;
+
+      _appLogger.e(
+        'BookRepositoryImpl._readGlossary failed',
+        error: error,
+        stackTrace: stackTrace,
+      );
+
+      rethrow;
     }
-
-    final terms = decoded
-        .whereType<Map>()
-        .map(
-          (m) => GlossaryTermDto.fromJson(m.cast<String, dynamic>()).toModel(),
-        )
-        .toList();
-
-    _glossaryCache = terms;
-
-    debugPrint(
-      'BookRepositoryImpl._loadGlossary: loaded ${terms.length} terms',
-    );
-
-    return terms;
   }
 
   @override

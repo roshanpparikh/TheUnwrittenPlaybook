@@ -6,7 +6,6 @@ import 'package:upwork_the_unwritten_playbook/data/dto/tip_dto.dart';
 import 'package:upwork_the_unwritten_playbook/data/tips/source/local_tip_source.dart';
 import 'package:upwork_the_unwritten_playbook/data/tips/source/remote_tip_source.dart';
 import 'package:upwork_the_unwritten_playbook/domain/models/tip_model.dart';
-import 'package:upwork_the_unwritten_playbook/isar/embedded_chunk_repository.dart';
 
 import 'tips_repository.dart';
 
@@ -16,21 +15,36 @@ class TipsRepositoryImpl implements TipsRepository {
   final LocalTipSource _local;
   final RemoteTipSource _remote;
 
+  Future<List<TipModel>>? _defaultTipsFuture;
+  List<TipModel>? _defaultTipsCache;
+
+  Future<void> _initQueue = Future<void>.value();
+
+  final ValueNotifier<List<TipModel>> _tips = ValueNotifier<List<TipModel>>(
+    <TipModel>[],
+  );
+
   TipsRepositoryImpl({
     required LocalTipSource local,
     required RemoteTipSource remote,
-    required EmbeddedChunkRepository embeddedChunkRepository,
-  })  : _local = local,
+  }) : _local = local,
         _remote = remote;
-
-  final ValueNotifier<List<TipModel>> _tips =
-  ValueNotifier<List<TipModel>>(<TipModel>[]);
 
   @override
   ValueListenable<List<TipModel>> get tips => _tips;
 
   @override
-  Future<void> init(int? lastChapterId, String? chapterContent) async {
+  Future<void> init(int? lastChapterId, String? chapterContent) {
+    final operation = _initQueue.then(
+          (_) => _initInternal(lastChapterId, chapterContent),
+    );
+
+    _initQueue = operation.catchError((Object error, StackTrace stackTrace) {});
+
+    return operation;
+  }
+
+  Future<void> _initInternal(int? lastChapterId, String? chapterContent) async {
     debugPrint(
       'TipsRepository.init: start, '
           'lastChapterId=$lastChapterId, '
@@ -55,9 +69,7 @@ class TipsRepositoryImpl implements TipsRepository {
       );
 
       _tips.value = cached;
-      debugPrint(
-        'TipsRepository.init: assigned cached tips to notifier',
-      );
+      debugPrint('TipsRepository.init: assigned cached tips to notifier');
     } else {
       debugPrint('TipsRepository.init: no cached tips found');
     }
@@ -78,8 +90,9 @@ class TipsRepositoryImpl implements TipsRepository {
     int? lastGenChapter;
 
     if (cached.isNotEmpty) {
-      lastGenDate =
-          DateTime.fromMillisecondsSinceEpoch(cached.first.generatedAtMs);
+      lastGenDate = DateTime.fromMillisecondsSinceEpoch(
+        cached.first.generatedAtMs,
+      );
       lastGenChapter = cached.first.forChapterId;
 
       debugPrint(
@@ -100,9 +113,7 @@ class TipsRepositoryImpl implements TipsRepository {
             'Using cached/default fallback.',
       );
       await _setCachedOrDefaults(cached);
-      debugPrint(
-        'TipsRepository.init: finished after same-chapter shortcut',
-      );
+      debugPrint('TipsRepository.init: finished after same-chapter shortcut');
       return;
     }
 
@@ -112,9 +123,7 @@ class TipsRepositoryImpl implements TipsRepository {
             '($lastGenDate). Using cached/default fallback.',
       );
       await _setCachedOrDefaults(cached);
-      debugPrint(
-        'TipsRepository.init: finished after same-day shortcut',
-      );
+      debugPrint('TipsRepository.init: finished after same-day shortcut');
       return;
     }
 
@@ -135,6 +144,7 @@ class TipsRepositoryImpl implements TipsRepository {
           'currentTipsCount=${_tips.value.length}',
     );
   }
+
   bool _isToday(DateTime date) {
     final now = DateTime.now();
     return date.year == now.year &&
@@ -182,50 +192,68 @@ class TipsRepositoryImpl implements TipsRepository {
       return;
     }
 
-    final defaults = await _loadDefaultTips();
-    _tips.value = defaults;
+    _tips.value = await _loadDefaultTips();
   }
 
-  Future<List<TipModel>> _loadDefaultTips() async {
-    final current = _tips.value;
-    if (current.isNotEmpty) {
-      debugPrint('TipsRepository._loadDefaultTips: already has ${current.length} tips');
-      return current;
-    }
+  Future<List<TipModel>> _loadDefaultTips() {
+    final cached = _defaultTipsCache;
 
-    debugPrint(
-      'TipsRepository._loadDefaultTips: loading asset $_defaultTipsAssetPath',
-    );
-
-    final jsonString = await rootBundle.loadString(_defaultTipsAssetPath);
-    final decoded = jsonDecode(jsonString);
-
-    if (decoded is! List) {
-      throw const FormatException('tips.json root must be a list.');
-    }
-
-    final generatedAtMs = DateTime.now().millisecondsSinceEpoch;
-
-    final tips = decoded
-        .whereType<Map>()
-        .map((m) {
-      final dto = TipDto.fromJson(m.cast<String, dynamic>());
-      return TipModel(
-        type: TipType.values.byName(dto.type),
-        label: dto.label,
-        content: dto.content,
-        generatedAtMs: generatedAtMs,
-        forChapterId: -1,
+    if (cached != null) {
+      debugPrint(
+        'TipsRepository._loadDefaultTips: '
+            'cache hit (${cached.length})',
       );
-    })
-        .toList();
 
-    _tips.value = tips;
+      return Future.value(cached);
+    }
 
+    return _defaultTipsFuture ??= _readDefaultTips();
+  }
+
+  Future<List<TipModel>> _readDefaultTips() async {
     debugPrint(
-      'TipsRepository._loadDefaultTips: loaded ${tips.length} tips',
+      'TipsRepository._readDefaultTips: '
+          'loading asset $_defaultTipsAssetPath',
     );
 
-    return tips;
+    try {
+      final jsonString = await rootBundle.loadString(_defaultTipsAssetPath);
+
+      final decoded = jsonDecode(jsonString);
+
+      if (decoded is! List) {
+        throw const FormatException('tips.json root must be a list.');
+      }
+
+      final generatedAtMs = DateTime.now().millisecondsSinceEpoch;
+
+      final tips = decoded
+          .whereType<Map>()
+          .map((map) {
+        final dto = TipDto.fromJson(map.cast<String, dynamic>());
+
+        return TipModel(
+          type: TipType.values.byName(dto.type),
+          label: dto.label,
+          content: dto.content,
+          generatedAtMs: generatedAtMs,
+          forChapterId: -1,
+        );
+      })
+          .toList(growable: false);
+
+      _defaultTipsCache = tips;
+
+      debugPrint(
+        'TipsRepository._readDefaultTips: '
+            'loaded ${tips.length} tips',
+      );
+
+      return tips;
+    } catch (error) {
+      // Allow a later call to retry.
+      _defaultTipsFuture = null;
+      rethrow;
+    }
   }
 }
